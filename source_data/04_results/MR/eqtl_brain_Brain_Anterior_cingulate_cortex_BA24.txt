@@ -1,0 +1,1 @@
+ensembl_gene_id	external_gene_name	A1	A2	chr	pos	eaf	beta	se	p	n	rsids2

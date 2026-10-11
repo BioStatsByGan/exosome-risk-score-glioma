@@ -1,0 +1,37 @@
+===== TCGA 多因素 Cox (riskScore + age + Sex + Grade + IDH) =====
+  Variable               HR        p
+ riskScore 2.15 (1.72-2.68) 2.22e-11
+       age 1.03 (1.02-1.04) 1.04e-07
+   SexMale 1.17 (0.92-1.48) 2.02e-01
+   GradeG3 1.38 (0.87-2.20) 1.71e-01
+   GradeG4 1.46 (0.84-2.54) 1.81e-01
+     IDHWT 1.05 (0.63-1.78) 8.41e-01
+C-index = 0.847
+CGGA-325 有 WHO 分级且可分析 n = 309（参照组 WHO II）
+
+===== CGGA-325 多因素 Cox (riskScore + WHO grade) =====
+     Variable               HR        p
+    riskScore 1.73 (1.44-2.08) 5.11e-09
+ GradeWHO III 2.68 (1.73-4.16) 1.01e-05
+  GradeWHO IV 4.68 (2.98-7.35) 1.89e-11
+C-index = 0.759
+
+===== CGGA-325 单因素 IDH 与 分级 的分离性检查 =====
+（分级与 IDH 标签齐全的子集 n = 308）
+         
+          Mutant Wildtype
+  WHO II      85       12
+  WHO III     42       32
+  WHO IV      39       98
+仅 IDH 的单因素模型 HR=2.777 (2.099-3.674) p=8.65e-13
+Using Cox survival estimates at  1 Years
+1 年校准: 预测区间 0.43-0.98 | 观测区间 0.44-1.00 | 校准斜率(线性拟合)=1.09
+Using Cox survival estimates at  1 Years
+3 年校准: 预测区间 0.43-0.98 | 观测区间 0.06-1.00 | 校准斜率(线性拟合)=1.80
+Using Cox survival estimates at  1 Years
+5 年校准: 预测区间 0.43-0.98 | 观测区间 0.00-0.87 | 校准斜率(线性拟合)=1.53
+null device 
+          1 
+null device 
+          1 
+saved: Fig5E_calibration.pdf

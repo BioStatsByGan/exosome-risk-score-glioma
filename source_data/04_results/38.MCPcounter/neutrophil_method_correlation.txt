@@ -1,0 +1,3 @@
+MCPcounter_vs_CIBERSORT	rho=0.370	p=2.52e-27
+MCPcounter_vs_ssGSEA	rho=0.365	p=1.51e-26
+CIBERSORT_vs_ssGSEA	rho=-0.011	p=0.763

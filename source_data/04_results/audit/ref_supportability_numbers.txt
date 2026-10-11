@@ -1,0 +1,101 @@
+== 引用句数字 vs 文献摘要（2026-10-11）==
+说明：正文引用句中出现、但未出现在该文献标题/摘要里的数字。摘要常省略具体数值，
+     因此「未命中」只作可疑提示，需人工判断该数字是否为被引文献的定量结论。
+
+共 20 条含未命中数字：
+
+### [3] 未命中：29, 338（句中全部数字：29, 338）
+TITLE: The 2021 WHO Classification of Tumors of the Central Nervous System: a summary.
+引用句: The 2021 World Health Organization classification of central nervous system tumours incorporated molecular markers into the diagnostic axis and used IDH mutation, 1p/19q codeletion and histone mutations as classification criteria, which further widened the prognostic differences observed within the same histological grade[3].
+引用句: Finally, whether the genes in such scores influence glioma susceptibility at the germline level is testable by Mendelian randomization using brain cis-eQTL instruments, which distinguishes a tumour-state marker from a risk factor[4][3].
+引用句: Our contribution differs in four respects: a two-stage shrinkage strategy that compressed 338 univariable-significant genes to 29 and then to 15[51][59]; explicit quantification of incremental value over a clinical model and of the variance shared with grade and IDH status[4][3][60]; grade-adjusted reporting of every downstream phenotype comparison; and an additive SHAP decomposition that reconstr
+
+### [4] 未命中：29, 338（句中全部数字：29, 338）
+TITLE: IDH1 and IDH2 mutations in gliomas.
+引用句: IDH1 and IDH2 mutations reshape the epigenetic landscape through production of 2-hydroxyglutarate and constitute the most important prognostic stratifier in lower-grade glioma and secondary glioblastoma[4], whereas MGMT promoter methylation determines the extent of benefit from temozolomide[5].
+引用句: Finally, whether the genes in such scores influence glioma susceptibility at the germline level is testable by Mendelian randomization using brain cis-eQTL instruments, which distinguishes a tumour-state marker from a risk factor[4][3].
+引用句: Our contribution differs in four respects: a two-stage shrinkage strategy that compressed 338 univariable-significant genes to 29 and then to 15[51][59]; explicit quantification of incremental value over a clinical model and of the variance shared with grade and IDH status[4][3][60]; grade-adjusted reporting of every downstream phenotype comparison; and an additive SHAP decomposition that reconstr
+引用句: The germline analysis completes the picture by exclusion: none of the genes showed a detectable causal effect on glioma risk, so the score indexes an acquired tumour state rather than inherited susceptibility, in contrast to IDH and other germline-associated architecture markers[4].
+
+### [13] 未命中：313, 325, 657, 693（句中全部数字：313, 325, 657, 693）
+TITLE: Chinese Glioma Genome Atlas (CGGA): A Comprehensive Resource with Functional Genomic Data from Chinese Glioma Patients.
+引用句: Large-scale programmes such as TCGA have systematically characterised somatic mutations, copy number alterations and transcriptional subtypes of glioblastoma and lower-grade glioma[11][6][12], and the Chinese Glioma Genome Atlas provides paired molecular and survival data from Chinese patients[13], establishing a basis for transcriptome-based risk modelling.
+引用句: External validation cohorts were the CGGA mRNAseq_325 and mRNAseq_693 datasets, with accompanying clinical information including WHO grade, IDH mutation status, MGMT promoter methylation status and overall survival[13]; patients lacking either follow-up time or vital status were excluded from the survival analyses (313 of 325 patients in CGGA-325 and 657 of 693 in CGGA-693).
+
+### [14] 未命中：0.65, 0.80（句中全部数字：0.65, 0.80）
+TITLE: Machine learning revealed stemness features and a novel stemness-based classification with appealing implications in discriminating the prognosis, immunotherapy and temozolomide responses of 906 glioblastoma patients.
+引用句: Machine learning has been applied widely to glioma prognosis, from radiomic features to multi-omics integration, and reported concordance indices mostly fall between 0.65 and 0.80[14][15][16][17][18].
+
+### [15] 未命中：0.65, 0.80（句中全部数字：0.65, 0.80）
+TITLE: An Online Calculator for the Prediction of Survival in Glioblastoma Patients Using Classical Statistics and Machine Learning.
+引用句: Machine learning has been applied widely to glioma prognosis, from radiomic features to multi-omics integration, and reported concordance indices mostly fall between 0.65 and 0.80[14][15][16][17][18].
+
+### [16] 未命中：0.65, 0.80（句中全部数字：0.65, 0.80）
+TITLE: Integrated machine learning survival framework develops a prognostic model based on inter-crosstalk definition of mitochondrial function and cell death patterns in a large multicenter cohort for lower-grade glioma.
+引用句: Machine learning has been applied widely to glioma prognosis, from radiomic features to multi-omics integration, and reported concordance indices mostly fall between 0.65 and 0.80[14][15][16][17][18].
+
+### [17] 未命中：0.65, 0.80（句中全部数字：0.65, 0.80）
+TITLE: Overall Survival Prediction in Glioblastoma With Radiomic Features Using Machine Learning.
+引用句: Machine learning has been applied widely to glioma prognosis, from radiomic features to multi-omics integration, and reported concordance indices mostly fall between 0.65 and 0.80[14][15][16][17][18].
+
+### [18] 未命中：0.65, 0.80（句中全部数字：0.65, 0.80）
+TITLE: Imaging patterns predict patient survival and molecular subtype in glioblastoma via machine learning techniques.
+引用句: Machine learning has been applied widely to glioma prognosis, from radiomic features to multi-omics integration, and reported concordance indices mostly fall between 0.65 and 0.80[14][15][16][17][18].
+
+### [20] 未命中：161（句中全部数字：161）
+TITLE: Meta-analysis of prediction model performance across multiple studies: Which scale helps ensure between-study normality for the C-statistic and calibration measures?
+引用句: These studies differ substantially in feature selection and validation strategy, and the frequent absence of independent external validation, calibration reporting and adjustment for established molecular markers limits clinical use of the resulting models[19][20].
+引用句: Drug sensitivity predictions must be read with more caution, because the near-symmetrical distribution of effect directions across 161 drugs points to a global grade and purity gradient rather than to specific pharmacology; the temozolomide and carmustine results are nevertheless consistent with the clinical behaviour of high-grade tumours and are presented as hypotheses rather than as decision su
+
+### [21] 未命中：150, 30（句中全部数字：150, 30）
+TITLE: Minimal information for studies of extracellular vesicles 2018 (MISEV2018): a position statement of the International Society for Extracellular Vesicles and update of the MISEV2014 guidelines.
+引用句: Exosomes are extracellular vesicles of 30 to 150 nm that carry proteins, messenger RNA and non-coding RNA and mediate intercellular information transfer[21].
+
+### [39] 未命中：0.65, 0.75（句中全部数字：0.65, 0.75）
+TITLE: Novel exosome-related risk signature as prognostic biomarkers in glioblastoma.
+引用句: Prognostic models based on exosome-related genes have been established in several cancer types, including glioblastoma[36][37][38][39][40]; combining single-cell and spatial transcriptomics can localise the cellular source of the signal[41][42], extracellular vesicle signatures related to epithelial-to-mesenchymal transition show prognostic value in non-small-cell lung cancer[43], and exosomal lon
+引用句: Previous exosome-related prognostic models reported C-indices between 0.65 and 0.75 - in glioblastoma[39] and, over a similar range, in breast cancer[40] - with high-risk groups characterised by immunosuppression and extracellular matrix remodelling, consistent in magnitude and direction with our validation cohorts.
+
+### [40] 未命中：0.65, 0.75（句中全部数字：0.65, 0.75）
+TITLE: Identification of an exosome-related signature associated with prognosis and immune infiltration in breast cancer.
+引用句: Prognostic models based on exosome-related genes have been established in several cancer types, including glioblastoma[36][37][38][39][40]; combining single-cell and spatial transcriptomics can localise the cellular source of the signal[41][42], extracellular vesicle signatures related to epithelial-to-mesenchymal transition show prognostic value in non-small-cell lung cancer[43], and exosomal lon
+引用句: Previous exosome-related prognostic models reported C-indices between 0.65 and 0.75 - in glioblastoma[39] and, over a similar range, in breast cancer[40] - with high-risk groups characterised by immunosuppression and extracellular matrix remodelling, consistent in magnitude and direction with our validation cohorts.
+
+### [46] 未命中：29, 338（句中全部数字：29, 338）
+TITLE: From Local Explanations to Global Understanding with Explainable AI for Trees.
+引用句: SHAP, based on Shapley values from cooperative game theory, decomposes an individual prediction into additive contributions of each feature and provides both global importance and individual-level direction of effect, and it has been used in several tumour types to examine the biological plausibility of survival models[46][47][48][49].
+引用句: Global importance was the mean absolute contribution across patients, and waterfall and force plots displayed the item-by-item decomposition for individual patients[46].
+引用句: Our contribution differs in four respects: a two-stage shrinkage strategy that compressed 338 univariable-significant genes to 29 and then to 15[51][59]; explicit quantification of incremental value over a clinical model and of the variance shared with grade and IDH status[4][3][60]; grade-adjusted reporting of every downstream phenotype comparison; and an additive SHAP decomposition that reconstr
+
+### [47] 未命中：29, 338（句中全部数字：29, 338）
+TITLE: Explainable machine learning can outperform Cox regression predictions and provide insights in breast cancer survival.
+引用句: SHAP, based on Shapley values from cooperative game theory, decomposes an individual prediction into additive contributions of each feature and provides both global importance and individual-level direction of effect, and it has been used in several tumour types to examine the biological plausibility of survival models[46][47][48][49].
+引用句: Our contribution differs in four respects: a two-stage shrinkage strategy that compressed 338 univariable-significant genes to 29 and then to 15[51][59]; explicit quantification of incremental value over a clinical model and of the variance shared with grade and IDH status[4][3][60]; grade-adjusted reporting of every downstream phenotype comparison; and an additive SHAP decomposition that reconstr
+
+### [48] 未命中：29, 338（句中全部数字：29, 338）
+TITLE: Machine learning explainability in nasopharyngeal cancer survival using LIME and SHAP.
+引用句: SHAP, based on Shapley values from cooperative game theory, decomposes an individual prediction into additive contributions of each feature and provides both global importance and individual-level direction of effect, and it has been used in several tumour types to examine the biological plausibility of survival models[46][47][48][49].
+引用句: Our contribution differs in four respects: a two-stage shrinkage strategy that compressed 338 univariable-significant genes to 29 and then to 15[51][59]; explicit quantification of incremental value over a clinical model and of the variance shared with grade and IDH status[4][3][60]; grade-adjusted reporting of every downstream phenotype comparison; and an additive SHAP decomposition that reconstr
+
+### [49] 未命中：29, 338（句中全部数字：29, 338）
+TITLE: Predicting Colorectal Cancer Survival Using Time-to-Event Machine Learning: Retrospective Cohort Study.
+引用句: SHAP, based on Shapley values from cooperative game theory, decomposes an individual prediction into additive contributions of each feature and provides both global importance and individual-level direction of effect, and it has been used in several tumour types to examine the biological plausibility of survival models[46][47][48][49].
+引用句: Our contribution differs in four respects: a two-stage shrinkage strategy that compressed 338 univariable-significant genes to 29 and then to 15[51][59]; explicit quantification of incremental value over a clinical model and of the variance shared with grade and IDH status[4][3][60]; grade-adjusted reporting of every downstream phenotype comparison; and an additive SHAP decomposition that reconstr
+
+### [50] 未命中：14, 148, 378, 544, 6, 749, 75, 894（句中全部数字：14, 148, 378, 544, 6, 749, 75, 894）
+TITLE: Surveying brain tumor heterogeneity by single-cell RNA-sequencing of multi-sector biopsies.
+引用句: Single-cell RNA sequencing data from the CGGA multi-sector glioma single-cell cohort (STRT-seq) (6,148 profiled cells, with clinical annotation covering 14 patients and 75 sample points)[50] and FinnGen R12 summary statistics for brain glioblastoma and astrocytoma (544 cases, 378,749 controls) and for malignant neoplasm of brain (1,894 cases, 378,749 controls) were used for the single-cell and cau
+
+### [59] 未命中：338（句中全部数字：29, 338）
+TITLE: A prognostic nomogram based on LASSO Cox regression in patients with alpha-fetoprotein-negative hepatocellular carcinoma following non-surgical therapy.
+引用句: Our contribution differs in four respects: a two-stage shrinkage strategy that compressed 338 univariable-significant genes to 29 and then to 15[51][59]; explicit quantification of incremental value over a clinical model and of the variance shared with grade and IDH status[4][3][60]; grade-adjusted reporting of every downstream phenotype comparison; and an additive SHAP decomposition that reconstr
+
+### [60] 未命中：29, 338（句中全部数字：29, 338）
+TITLE: Survival of diffuse astrocytic glioma, IDH1/2 wildtype, with molecular features of glioblastoma, WHO grade IV: a confirmation of the cIMPACT-NOW criteria.
+引用句: Our contribution differs in four respects: a two-stage shrinkage strategy that compressed 338 univariable-significant genes to 29 and then to 15[51][59]; explicit quantification of incremental value over a clinical model and of the variance shared with grade and IDH status[4][3][60]; grade-adjusted reporting of every downstream phenotype comparison; and an additive SHAP decomposition that reconstr
+引用句: These properties support its use as a supplementary stratification layer for identifying patients of the same grade with different prognosis, a need that is prominent in lower-grade glioma and in IDH-wildtype glioblastoma, where outcome differences within a single diagnostic category are substantial[83][84][60][8][85][7][86][87].
+
+### [95] 未命中：161（句中全部数字：161）
+TITLE: Understanding decision curve analysis in clinical prediction model research.
+引用句: Drug sensitivity predictions must be read with more caution, because the near-symmetrical distribution of effect directions across 161 drugs points to a global grade and purity gradient rather than to specific pharmacology; the temozolomide and carmustine results are nevertheless consistent with the clinical behaviour of high-grade tumours and are presented as hypotheses rather than as decision su
+

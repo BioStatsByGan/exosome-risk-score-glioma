@@ -1,0 +1,760 @@
+[
+ {
+  "n": 1,
+  "doi": "10.1093/neuonc/noz150",
+  "year": "2019",
+  "title": "Ostrom QT, Cioffi G, Gittleman H, et al",
+  "cr_journal": "Neuro-Oncology",
+  "cr_year": 2019
+ },
+ {
+  "n": 2,
+  "doi": "10.1111/ane.12966",
+  "year": "2018",
+  "title": "Bruhn H, Strandéus M, Milos P, et al",
+  "cr_journal": "Acta Neurologica Scandinavica",
+  "cr_year": 2018
+ },
+ {
+  "n": 3,
+  "doi": "10.1093/neuonc/noab106",
+  "year": "2021",
+  "title": "Louis DN, Perry A, Wesseling P, et al",
+  "cr_journal": "Neuro-Oncology",
+  "cr_year": 2021
+ },
+ {
+  "n": 4,
+  "doi": "10.1056/nejmoa0808710",
+  "year": "2009",
+  "title": "Yan H, Parsons DW, Jin G, et al",
+  "cr_journal": "New England Journal of Medicine",
+  "cr_year": 2009
+ },
+ {
+  "n": 5,
+  "doi": "10.1056/nejmoa043331",
+  "year": "2005",
+  "title": "Hegi ME, Diserens AC, Gorlia T, et al",
+  "cr_journal": "New England Journal of Medicine",
+  "cr_year": 2005
+ },
+ {
+  "n": 6,
+  "doi": "10.1056/nejmoa1402121",
+  "year": "2015",
+  "title": "Cancer Genome Atlas Research Network, Brat DJ, Verhaak RG, et al",
+  "cr_journal": "New England Journal of Medicine",
+  "cr_year": 2015
+ },
+ {
+  "n": 7,
+  "doi": "10.1016/j.ejca.2023.05.002",
+  "year": "2023",
+  "title": "Hertler C, Felsberg J, Gramatzki D, et al",
+  "cr_journal": "European Journal of Cancer",
+  "cr_year": 2023
+ },
+ {
+  "n": 8,
+  "doi": "10.1007/s11060-022-03960-6",
+  "year": "2022",
+  "title": "Ramos-Fresnedo A, Pullen MW, Perez-Vega C, et al",
+  "cr_journal": "Journal of Neuro-Oncology",
+  "cr_year": 2022
+ },
+ {
+  "n": 9,
+  "doi": "10.2147/cmar.s165956",
+  "year": "2018",
+  "title": "Syed M, Liermann J, Verma V, et al",
+  "cr_journal": "Cancer Management and Research",
+  "cr_year": 2018
+ },
+ {
+  "n": 10,
+  "doi": "10.1093/neuonc/not137",
+  "year": "2014",
+  "title": "Chaichana KL, Jusue-Torres I, Navarro-Ramirez R, et al",
+  "cr_journal": "Neuro-Oncology",
+  "cr_year": 2013
+ },
+ {
+  "n": 11,
+  "doi": "10.1016/j.cell.2013.09.034",
+  "year": "2013",
+  "title": "Brennan CW, Verhaak RG, McKenna A, et al",
+  "cr_journal": "Cell",
+  "cr_year": 2013
+ },
+ {
+  "n": 12,
+  "doi": "10.1016/j.cell.2015.12.028",
+  "year": "2016",
+  "title": "Ceccarelli M, Barthel FP, Malta TM, et al",
+  "cr_journal": "Cell",
+  "cr_year": 2016
+ },
+ {
+  "n": 13,
+  "doi": "10.1016/j.gpb.2020.10.005",
+  "year": "2021",
+  "title": "Zhao Z, Zhang KN, Wang Q, et al",
+  "cr_journal": "Genomics, Proteomics &amp; Bioinformatics",
+  "cr_year": 2021
+ },
+ {
+  "n": 14,
+  "doi": "10.1093/bib/bbab032",
+  "year": "2021",
+  "title": "Wang Z, Wang Y, Yang T, et al",
+  "cr_journal": "Briefings in Bioinformatics",
+  "cr_year": 2021
+ },
+ {
+  "n": 15,
+  "doi": "10.1093/neuros/nyz403",
+  "year": "2020",
+  "title": "Senders JT, Staples P, Mehrtash A, et al",
+  "cr_journal": "Neurosurgery",
+  "cr_year": 2019
+ },
+ {
+  "n": 16,
+  "doi": "10.1186/s12967-023-04468-x",
+  "year": "2023",
+  "title": "Qin H, Abulaiti A, Maimaiti A, et al",
+  "cr_journal": "Journal of Translational Medicine",
+  "cr_year": 2023
+ },
+ {
+  "n": 17,
+  "doi": "10.3389/fncom.2020.00061",
+  "year": "2020",
+  "title": "Baid U, Rane SU, Talbar S, et al",
+  "cr_journal": "Frontiers in Computational Neuroscience",
+  "cr_year": 2020
+ },
+ {
+  "n": 18,
+  "doi": "10.1093/neuonc/nov127",
+  "year": "2016",
+  "title": "Macyszyn L, Akbari H, Pisapia JM, et al",
+  "cr_journal": "Neuro-Oncology",
+  "cr_year": 2015
+ },
+ {
+  "n": 19,
+  "doi": "10.1136/bmj.g7594",
+  "year": "2015",
+  "title": "Collins GS, Reitsma JB, Altman DG, et al",
+  "cr_journal": "BMJ",
+  "cr_year": 2015
+ },
+ {
+  "n": 20,
+  "doi": "10.1177/0962280217705678",
+  "year": "2018",
+  "title": "Snell KI, Ensor J, Debray TP, et al",
+  "cr_journal": "Statistical Methods in Medical Research",
+  "cr_year": 2017
+ },
+ {
+  "n": 21,
+  "doi": "10.1080/20013078.2018.1535750",
+  "year": "2018",
+  "title": "Théry C, Witwer KW, Aikawa E, et al",
+  "cr_journal": "Journal of Extracellular Vesicles",
+  "cr_year": 2018
+ },
+ {
+  "n": 22,
+  "doi": "10.1016/j.ccell.2014.09.005",
+  "year": "2014",
+  "title": "Melo SA, Sugimoto H, O'Connell JT, et al",
+  "cr_journal": "Cancer Cell",
+  "cr_year": 2014
+ },
+ {
+  "n": 23,
+  "doi": "10.1038/nature15756",
+  "year": "2015",
+  "title": "Hoshino A, Costa-Silva B, Shen TL, et al",
+  "cr_journal": "Nature",
+  "cr_year": 2015
+ },
+ {
+  "n": 24,
+  "doi": "10.1038/ncb2000",
+  "year": "2010",
+  "title": "Ostrowski M, Carmo NB, Krumeich S, et al",
+  "cr_journal": "Nature Cell Biology",
+  "cr_year": 2009
+ },
+ {
+  "n": 25,
+  "doi": "10.1126/sciadv.aar2766",
+  "year": "2018",
+  "title": "Ricklefs FL, Alayo Q, Krenzlin H, et al",
+  "cr_journal": "Science Advances",
+  "cr_year": 2018
+ },
+ {
+  "n": 26,
+  "doi": "10.1038/s41388-019-0996-y",
+  "year": "2020",
+  "title": "Qian M, Wang S, Guo X, et al",
+  "cr_journal": "Oncogene",
+  "cr_year": 2019
+ },
+ {
+  "n": 27,
+  "doi": "10.1038/s41419-021-03664-1",
+  "year": "2021",
+  "title": "Xu J, Zhang J, Zhang Z, et al",
+  "cr_journal": "Cell Death &amp; Disease",
+  "cr_year": 2021
+ },
+ {
+  "n": 28,
+  "doi": "10.1093/neuonc/nov244",
+  "year": "2016",
+  "title": "van der Vos KE, Abels ER, Zhang X, et al",
+  "cr_journal": "Neuro-Oncology",
+  "cr_year": 2015
+ },
+ {
+  "n": 29,
+  "doi": "10.1371/journal.pone.0169932",
+  "year": "2017",
+  "title": "Domenis R, Cesselli D, Toffoletto B, et al",
+  "cr_journal": "PLOS ONE",
+  "cr_year": 2017
+ },
+ {
+  "n": 30,
+  "doi": "10.1021/acsnano.9b04397",
+  "year": "2019",
+  "title": "Morad G, Carman CV, Hagedorn EJ, et al",
+  "cr_journal": "ACS Nano",
+  "cr_year": 2019
+ },
+ {
+  "n": 31,
+  "doi": "10.3390/ijms21124407",
+  "year": "2020",
+  "title": "Banks WA, Sharma P, Bullock KM, et al",
+  "cr_journal": "International Journal of Molecular Sciences",
+  "cr_year": 2020
+ },
+ {
+  "n": 32,
+  "doi": "10.1007/s13402-017-0355-3",
+  "year": "2018",
+  "title": "Lan F, Qing Q, Pan Q, et al",
+  "cr_journal": "Cellular Oncology",
+  "cr_year": 2017
+ },
+ {
+  "n": 33,
+  "doi": "10.1038/s41698-018-0071-0",
+  "year": "2018",
+  "title": "Ebrahimkhani S, Vafaee F, Hallal S, et al",
+  "cr_journal": "npj Precision Oncology",
+  "cr_year": 2018
+ },
+ {
+  "n": 34,
+  "doi": "10.1158/1078-0432.ccr-22-2903",
+  "year": "2023",
+  "title": "Orzan F, De Bacco F, Lazzarini E, et al",
+  "cr_journal": "Clinical Cancer Research",
+  "cr_year": 2023
+ },
+ {
+  "n": 35,
+  "doi": "10.3892/ol.2020.11249",
+  "year": "2020",
+  "title": "Lan F, Yue X, Xia T",
+  "cr_journal": "Oncology Letters",
+  "cr_year": 2020
+ },
+ {
+  "n": 36,
+  "doi": "10.3389/fimmu.2021.736030",
+  "year": "2021",
+  "title": "Qiu P, Guo Q, Yao Q, et al",
+  "cr_journal": "Frontiers in Immunology",
+  "cr_year": 2021
+ },
+ {
+  "n": 37,
+  "doi": "10.1016/j.tranon.2023.101651",
+  "year": "2023",
+  "title": "Peng W, Bai S, Zheng M, et al",
+  "cr_journal": "Translational Oncology",
+  "cr_year": 2023
+ },
+ {
+  "n": 38,
+  "doi": "10.3389/fimmu.2024.1228235",
+  "year": "2024",
+  "title": "Cui Y, Zhang W, Lu W, et al",
+  "cr_journal": "Frontiers in Immunology",
+  "cr_year": 2024
+ },
+ {
+  "n": 39,
+  "doi": "10.3389/fimmu.2023.1071023",
+  "year": "2023",
+  "title": "Ding M, Xu Q, Jin X, et al",
+  "cr_journal": "Frontiers in Immunology",
+  "cr_year": 2023
+ },
+ {
+  "n": 40,
+  "doi": "10.1038/s41598-023-45325-7",
+  "year": "2023",
+  "title": "Guo Q, Pan K, Qiu P, et al",
+  "cr_journal": "Scientific Reports",
+  "cr_year": 2023
+ },
+ {
+  "n": 41,
+  "doi": "10.3389/fimmu.2023.1263329",
+  "year": "2023",
+  "title": "Zhao S, Wang Q, Ni K, et al",
+  "cr_journal": "Frontiers in Immunology",
+  "cr_year": 2023
+ },
+ {
+  "n": 42,
+  "doi": "10.1186/s12967-021-03053-4",
+  "year": "2021",
+  "title": "Wu J, Zeng D, Zhi S, et al",
+  "cr_journal": "Journal of Translational Medicine",
+  "cr_year": 2021
+ },
+ {
+  "n": 43,
+  "doi": "10.1038/s42003-022-04350-4",
+  "year": "2023",
+  "title": "Lobb RJ, Visan KS, Wu LY, et al",
+  "cr_journal": "Communications Biology",
+  "cr_year": 2023
+ },
+ {
+  "n": 44,
+  "doi": null,
+  "year": "2018",
+  "title": "Hou Y, Yu Z, Tam NL, et al"
+ },
+ {
+  "n": 45,
+  "doi": "10.1038/s41598-022-26894-5",
+  "year": "2022",
+  "title": "Qiu P, Guo Q, Lin J, et al",
+  "cr_journal": "Scientific Reports",
+  "cr_year": 2022
+ },
+ {
+  "n": 46,
+  "doi": "10.1038/s42256-019-0138-9",
+  "year": "2020",
+  "title": "Lundberg SM, Erion G, Chen H, et al",
+  "cr_journal": "Nature Machine Intelligence",
+  "cr_year": 2020
+ },
+ {
+  "n": 47,
+  "doi": "10.1038/s41598-021-86327-7",
+  "year": "2021",
+  "title": "Moncada-Torres A, van Maaren MC, Hendriks MP, et al",
+  "cr_journal": "Scientific Reports",
+  "cr_year": 2021
+ },
+ {
+  "n": 48,
+  "doi": "10.1038/s41598-023-35795-0",
+  "year": "2023",
+  "title": "Alabi RO, Elmusrati M, Leivo I, et al",
+  "cr_journal": "Scientific Reports",
+  "cr_year": 2023
+ },
+ {
+  "n": 49,
+  "doi": "10.2196/44417",
+  "year": "2023",
+  "title": "Yang X, Qiu H, Wang L, et al",
+  "cr_journal": "Journal of Medical Internet Research",
+  "cr_year": 2023
+ },
+ {
+  "n": 50,
+  "doi": "10.1093/nsr/nwaa099",
+  "year": "2020",
+  "title": "Yu K, Hu Y, Wu F, et al",
+  "cr_journal": "National Science Review",
+  "cr_year": 2020
+ },
+ {
+  "n": 51,
+  "doi": "10.3892/mmr.2018.9567",
+  "year": "2018",
+  "title": "Zhang Y, Li H, Zhang W, et al",
+  "cr_journal": "Molecular Medicine Reports",
+  "cr_year": 2018
+ },
+ {
+  "n": 52,
+  "doi": "10.3389/fgene.2020.00363",
+  "year": "2020",
+  "title": "Zhang M, Wang X, Chen X, et al",
+  "cr_journal": "Frontiers in Genetics",
+  "cr_year": 2020
+ },
+ {
+  "n": 53,
+  "doi": "10.3389/fonc.2020.590861",
+  "year": "2020",
+  "title": "Zhuo S, Chen Z, Yang Y, et al",
+  "cr_journal": "Frontiers in Oncology",
+  "cr_year": 2020
+ },
+ {
+  "n": 54,
+  "doi": "10.3389/fimmu.2022.998236",
+  "year": "2022",
+  "title": "Wang W, Lu Z, Wang M, et al",
+  "cr_journal": "Frontiers in Immunology",
+  "cr_year": 2022
+ },
+ {
+  "n": 55,
+  "doi": "10.1111/cns.14489",
+  "year": "2024",
+  "title": "Duan WW, Yang LT, Liu J, et al",
+  "cr_journal": "CNS Neuroscience &amp; Therapeutics",
+  "cr_year": 2023
+ },
+ {
+  "n": 56,
+  "doi": "10.1007/s11060-017-2667-6",
+  "year": "2018",
+  "title": "Wang W, Zhao Z, Yang F, et al",
+  "cr_journal": "Journal of Neuro-Oncology",
+  "cr_year": 2017
+ },
+ {
+  "n": 57,
+  "doi": "10.1111/cns.12171",
+  "year": "2014",
+  "title": "Bao ZS, Li MY, Wang JY, et al",
+  "cr_journal": "CNS Neuroscience &amp; Therapeutics",
+  "cr_year": 2013
+ },
+ {
+  "n": 58,
+  "doi": "10.18632/aging.102566",
+  "year": "2019",
+  "title": "Wang Z, Gao L, Guo X, et al",
+  "cr_journal": "Aging",
+  "cr_year": 2019
+ },
+ {
+  "n": 59,
+  "doi": "10.1186/s12885-021-07916-3",
+  "year": "2021",
+  "title": "Zhou D, Liu X, Wang X, et al",
+  "cr_journal": "BMC Cancer",
+  "cr_year": 2021
+ },
+ {
+  "n": 60,
+  "doi": "10.1093/neuonc/noz200",
+  "year": "2020",
+  "title": "Tesileanu CMS, Dirven L, Wijnenga MMJ, et al",
+  "cr_journal": "Neuro-Oncology",
+  "cr_year": 2019
+ },
+ {
+  "n": 61,
+  "doi": "10.1158/0008-5472.can-12-0925",
+  "year": "2012",
+  "title": "Bobrie A, Krumeich S, Reyal F, et al",
+  "cr_journal": "Cancer Research",
+  "cr_year": 2012
+ },
+ {
+  "n": 62,
+  "doi": "10.1002/ijc.32064",
+  "year": "2019",
+  "title": "Guo D, Lui GYL, Lai SL, et al",
+  "cr_journal": "International Journal of Cancer",
+  "cr_year": 2019
+ },
+ {
+  "n": 63,
+  "doi": "10.1007/s12032-014-0372-2",
+  "year": "2015",
+  "title": "Wang Q, Ni Q, Wang X, et al",
+  "cr_journal": "Medical Oncology",
+  "cr_year": 2014
+ },
+ {
+  "n": 64,
+  "doi": "10.1158/0008-5472.can-09-1622",
+  "year": "2009",
+  "title": "Suvà ML, Riggi N, Janiszewska M, et al",
+  "cr_journal": "Cancer Research",
+  "cr_year": 2009
+ },
+ {
+  "n": 65,
+  "doi": "10.1038/nm.4415",
+  "year": "2017",
+  "title": "Jin X, Kim LJY, Wu Q, et al",
+  "cr_journal": "Nature Medicine",
+  "cr_year": 2017
+ },
+ {
+  "n": 66,
+  "doi": "10.1016/j.stemcr.2014.12.006",
+  "year": "2015",
+  "title": "Kim SH, Joshi K, Ezhilarasan R, et al",
+  "cr_journal": "Stem Cell Reports",
+  "cr_year": 2015
+ },
+ {
+  "n": 67,
+  "doi": "10.1158/1078-0432.ccr-12-3946",
+  "year": "2013",
+  "title": "Behrens C, Solis LM, Lin H, et al",
+  "cr_journal": "Clinical Cancer Research",
+  "cr_year": 2013
+ },
+ {
+  "n": 68,
+  "doi": "10.18632/oncotarget.205",
+  "year": "2010",
+  "title": "Smits M, Nilsson J, Mir SE, et al",
+  "cr_journal": "Oncotarget",
+  "cr_year": 2010
+ },
+ {
+  "n": 69,
+  "doi": "10.1038/nm982",
+  "year": "2004",
+  "title": "Khanna C, Wan X, Bose S, et al",
+  "cr_journal": "Nature Medicine",
+  "cr_year": 2004
+ },
+ {
+  "n": 70,
+  "doi": "10.1186/bcr1006",
+  "year": "2005",
+  "title": "Elliott BE, Meens JA, SenGupta SK, et al",
+  "cr_journal": "Breast Cancer Research",
+  "cr_year": 2005
+ },
+ {
+  "n": 71,
+  "doi": "10.1016/j.molmed.2004.03.001",
+  "year": "2004",
+  "title": "Hunter KW",
+  "cr_journal": "Trends in Molecular Medicine",
+  "cr_year": 2004
+ },
+ {
+  "n": 72,
+  "doi": "10.1016/j.ajpath.2012.02.023",
+  "year": "2012",
+  "title": "Zhu J, Feng Y, Ke Z, et al",
+  "cr_journal": "The American Journal of Pathology",
+  "cr_year": 2012
+ },
+ {
+  "n": 73,
+  "doi": "10.1038/s41556-019-0408-0",
+  "year": "2019",
+  "title": "Schmidt S, Gay D, Uthe FW, et al",
+  "cr_journal": "Nature Cell Biology",
+  "cr_year": 2019
+ },
+ {
+  "n": 74,
+  "doi": "10.1038/s43018-020-0056-0",
+  "year": "2020",
+  "title": "Suresh S, Chen B, Zhu J, et al",
+  "cr_journal": "Nature Cancer",
+  "cr_year": 2020
+ },
+ {
+  "n": 75,
+  "doi": "10.1126/scisignal.aac4374",
+  "year": "2016",
+  "title": "Kline CL, Van den Heuvel AP, Allen JE, et al",
+  "cr_journal": "Science Signaling",
+  "cr_year": 2016
+ },
+ {
+  "n": 76,
+  "doi": "10.1371/journal.pone.0007147",
+  "year": "2009",
+  "title": "Belin S, Beghin A, Solano-Gonzàlez E, et al",
+  "cr_journal": "PLoS ONE",
+  "cr_year": 2009
+ },
+ {
+  "n": 77,
+  "doi": "10.1186/s13045-024-01526-9",
+  "year": "2024",
+  "title": "Xue M, Dong L, Zhang H, et al",
+  "cr_journal": "Journal of Hematology &amp; Oncology",
+  "cr_year": 2024
+ },
+ {
+  "n": 78,
+  "doi": "10.1002/cncr.21862",
+  "year": "2006",
+  "title": "Li M, Zhai Q, Bharadwaj U, et al",
+  "cr_journal": "Cancer",
+  "cr_year": 2006
+ },
+ {
+  "n": 79,
+  "doi": "10.1158/0008-5472.can-06-1759",
+  "year": "2007",
+  "title": "Choi KJ, Piao YJ, Lim MJ, et al",
+  "cr_journal": "Cancer Research",
+  "cr_year": 2007
+ },
+ {
+  "n": 80,
+  "doi": "10.1158/0008-5472.can-05-1219",
+  "year": "2005",
+  "title": "Howard BA, Furumai R, Campa MJ, et al",
+  "cr_journal": "Cancer Research",
+  "cr_year": 2005
+ },
+ {
+  "n": 81,
+  "doi": "10.1038/s41419-019-1894-5",
+  "year": "2019",
+  "title": "Liu Y, Zhang X, Lin J, et al",
+  "cr_journal": "Cell Death &amp; Disease",
+  "cr_year": 2019
+ },
+ {
+  "n": 82,
+  "doi": "10.3748/wjg.v21.i28.8588",
+  "year": "2015",
+  "title": "Cui X, Hu ZP, Li Z, et al",
+  "cr_journal": "World Journal of Gastroenterology",
+  "cr_year": 2015
+ },
+ {
+  "n": 83,
+  "doi": "10.1093/neuonc/now208",
+  "year": "2017",
+  "title": "Gittleman H, Lim D, Kattan MW, et al",
+  "cr_journal": "Neuro-Oncology",
+  "cr_year": 2016
+ },
+ {
+  "n": 84,
+  "doi": "10.1093/neuonc/noz191",
+  "year": "2020",
+  "title": "Gittleman H, Sloan AE, Barnholtz-Sloan JS",
+  "cr_journal": "Neuro-Oncology",
+  "cr_year": 2019
+ },
+ {
+  "n": 85,
+  "doi": "10.1093/jnen/nlaa059",
+  "year": "2020",
+  "title": "Galbraith K, Kumar A, Abdullah KG, et al",
+  "cr_journal": "Journal of Neuropathology &amp; Experimental Neurology",
+  "cr_year": 2020
+ },
+ {
+  "n": 86,
+  "doi": "10.1038/s41598-020-63789-9",
+  "year": "2020",
+  "title": "Buchwald ZS, Tian S, Rossi M, et al",
+  "cr_journal": "Scientific Reports",
+  "cr_year": 2020
+ },
+ {
+  "n": 87,
+  "doi": "10.3390/cancers15184636",
+  "year": "2023",
+  "title": "Farzana W, Basree MM, Diawara N, et al",
+  "cr_journal": "Cancers",
+  "cr_year": 2023
+ },
+ {
+  "n": 88,
+  "doi": "10.1038/s41598-018-24516-7",
+  "year": "2018",
+  "title": "Zhu L, Cheng G, Ye D, et al",
+  "cr_journal": "Scientific Reports",
+  "cr_year": 2018
+ },
+ {
+  "n": 89,
+  "doi": "10.1016/j.bios.2021.113476",
+  "year": "2021",
+  "title": "Thakur A, Xu C, Li WK, et al",
+  "cr_journal": "Biosensors and Bioelectronics",
+  "cr_year": 2021
+ },
+ {
+  "n": 90,
+  "doi": "10.1021/acsnano.2c03055",
+  "year": "2022",
+  "title": "Ishwar D, Haldavnekar R, Das S, et al",
+  "cr_journal": "ACS Nano",
+  "cr_year": 2022
+ },
+ {
+  "n": 91,
+  "doi": "10.1007/s11095-014-1593-y",
+  "year": "2015",
+  "title": "Yang T, Martin P, Fogarty B, et al",
+  "cr_journal": "Pharmaceutical Research",
+  "cr_year": 2015
+ },
+ {
+  "n": 92,
+  "doi": "10.1021/acs.nanolett.0c04753",
+  "year": "2021",
+  "title": "Niu W, Xiao Q, Wang X, et al",
+  "cr_journal": "Nano Letters",
+  "cr_year": 2021
+ },
+ {
+  "n": 93,
+  "doi": "10.1002/adma.202110364",
+  "year": "2022",
+  "title": "Wu T, Liu Y, Cao Y, et al",
+  "cr_journal": "Advanced Materials",
+  "cr_year": 2022
+ },
+ {
+  "n": 94,
+  "doi": "10.1021/acsnano.2c10219",
+  "year": "2023",
+  "title": "Cui J, Wang X, Li J, et al",
+  "cr_journal": "ACS Nano",
+  "cr_year": 2023
+ },
+ {
+  "n": 95,
+  "doi": "10.1093/postmj/qgae027",
+  "year": "2024",
+  "title": "Zhao L, Leng Y, Hu Y, et al",
+  "cr_journal": "Postgraduate Medical Journal",
+  "cr_year": 2024
+ }
+]

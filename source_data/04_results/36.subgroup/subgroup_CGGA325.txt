@@ -1,0 +1,14 @@
+Cohort	Stratum	Level	n	n_high	n_low	Events	Ev_high	Ev_low	HR	L	H	P
+CGGA-325	Overall	All patients	313	158	155	218	140	78	4.47	3.33	5.99	1.72e-23
+CGGA-325	IDH	IDH-mutant	167	31	136	96	27	69	3.98	2.52	6.29	2.88e-09
+CGGA-325	MGMTp	MGMT promoter methylated	170	66	104	114	61	53	4.19	2.84	6.17	4.11e-13
+CGGA-325	MGMTp	MGMT promoter unmethylated	143	92	51	104	79	25	4.95	3.07	7.99	5.56e-11
+CGGA-325	Grade	WHO III	74	32	42	54	30	24	2.88	1.65	5.05	0.000213
+CGGA-325	Grade	WHO IV	137	110	27	124	101	23	1.82	1.15	2.88	0.011
+CGGA-325	Age	Age <= 50	226	93	133	144	82	62	4.18	2.97	5.9	3.3e-16
+CGGA-325	Age	Age > 50	87	65	22	74	58	16	4.16	2.2	7.85	1.12e-05
+CGGA-325	Codel	1p/19q intact	251	158	93	200	140	60	2.95	2.15	4.03	1.47e-11
+CGGA-325	Radio	Radiotherapy treated	241	117	124	161	104	57	5.35	3.77	7.57	3.8e-21
+CGGA-325	Radio	Radiotherapy untreated	62	34	28	48	29	19	2.51	1.38	4.55	0.00251
+CGGA-325	Chemo	Chemotherapy treated	190	111	79	141	96	45	3.33	2.3	4.81	1.77e-10
+CGGA-325	Chemo	Chemotherapy untreated	110	41	69	67	38	29	7.18	4.2	12.26	5.31e-13

@@ -1,0 +1,55 @@
+表达矩阵: 19938 基因 × 804 样本
+交集样本: 799 
+Hallmark 通路数: 50 
+Hallmark 基因矩阵: 4374 基因 × 799 样本
+! 4 genes with constant values throughout the samples
+! Genes with constant values are discarded
+GSVA 输出: 50 通路 × 799 样本
+
+== 高风险的 Top10 通路 ==
+                                       Pathway     delta            P
+                                        <char>     <num>        <num>
+ 1:         HALLMARK_INTERFERON_GAMMA_RESPONSE 0.5914614 1.116795e-64
+ 2:         HALLMARK_INTERFERON_ALPHA_RESPONSE 0.5361560 3.995141e-49
+ 3: HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION 0.5340838 1.551509e-95
+ 4:           HALLMARK_IL6_JAK_STAT3_SIGNALING 0.5015612 2.946143e-59
+ 5:               HALLMARK_ALLOGRAFT_REJECTION 0.5004364 2.305910e-55
+ 6:                      HALLMARK_ANGIOGENESIS 0.4973217 2.124231e-90
+ 7:                       HALLMARK_E2F_TARGETS 0.4598470 1.479673e-27
+ 8:             HALLMARK_INFLAMMATORY_RESPONSE 0.4380832 2.355860e-54
+ 9:           HALLMARK_TNFA_SIGNALING_VIA_NFKB 0.4099970 4.116648e-46
+10:                       HALLMARK_COAGULATION 0.3609840 5.413834e-71
+     P_grade_adj       rho          FDR
+           <num>     <num>        <num>
+ 1: 9.228577e-13 0.6283112 6.979969e-64
+ 2: 2.080822e-10 0.5317491 1.331714e-48
+ 3: 2.131347e-11 0.7695975 7.757545e-94
+ 4: 6.835919e-10 0.6151199 1.636746e-58
+ 5: 1.130247e-10 0.5928391 1.048141e-54
+ 6: 3.476865e-09 0.7331888 5.310577e-89
+ 7: 8.650971e-04 0.3618384 3.216681e-27
+ 8: 5.374672e-08 0.5930583 9.816083e-54
+ 9: 2.790422e-07 0.5502723 1.286452e-45
+10: 3.862231e-08 0.6660998 5.413834e-70
+
+== 低风险的 Top5 通路 ==
+                               Pathway      delta            P  P_grade_adj
+                                <char>      <num>        <num>        <num>
+1:            HALLMARK_HEME_METABOLISM -0.2265243 3.084590e-77 2.563887e-10
+2:        HALLMARK_PANCREAS_BETA_CELLS -0.2635288 2.191873e-32 8.155441e-15
+3:  HALLMARK_OXIDATIVE_PHOSPHORYLATION -0.3359261 1.524985e-22 3.799251e-04
+4: HALLMARK_WNT_BETA_CATENIN_SIGNALING -0.3534613 4.309032e-65 2.695523e-04
+5:         HALLMARK_HEDGEHOG_SIGNALING -0.3800514 1.056365e-75 1.185287e-17
+          rho          FDR
+        <num>        <num>
+1: -0.6522941 5.140983e-76
+2: -0.4535275 5.218744e-32
+3: -0.3690384 2.932663e-22
+4: -0.6310898 3.077880e-64
+5: -0.6395028 1.320457e-74
+
+分级校正后仍 P<0.05 的通路: 36 / 50 
+saved: 03_figures/Fig6C_hallmark_heatmap.pdf 
+saved: 03_figures/Fig6D_hallmark_violin.pdf 
+
+Fig6C / Fig6D 完成

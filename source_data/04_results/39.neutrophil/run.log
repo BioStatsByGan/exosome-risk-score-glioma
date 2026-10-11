@@ -1,0 +1,43 @@
+样本 799（高危 399，低危 400） 
+ssGSEA 特征数 29，含中性粒行: TRUE 
+中性粒标志基因（7 个）: FCGR3B, CSF3R, CXCR2, FPR1, AQP9, S100A12, MMP9 
+
+== 五种中性粒估计的组间差异 == 
+           Method  delta        P_raw  P_grade_adj delta_G4 P_within_G4
+           <char>  <num>        <num>        <num>    <num>       <num>
+1: CIBERSORT_frac  0.012 4.492078e-26 2.871810e-01       NA  0.63435629
+2:  CIBERSORT_clr  1.816 3.731281e-23 4.959637e-02       NA  0.87775970
+3:     MCPcounter  0.102 3.984534e-06 7.511713e-03       NA  0.39679884
+4:         ssGSEA -0.027 1.007781e-11 9.616678e-03       NA  0.21747319
+5:    MarkerScore  1.197 8.210431e-76 1.855840e-11       NA  0.00259639
+   P_within_IDHwt rho_risk
+            <num>    <num>
+1:   1.304898e-02    0.389
+2:   1.668030e-02    0.374
+3:   6.752401e-01    0.184
+4:   1.953908e-02   -0.227
+5:   2.358753e-06    0.695
+
+== 统一对比表（含脑特异署名集）== 
+CIBERSORT_frac       delta=  0.012  P_raw=4.49e-26  P_adj=0.287  G4内=0.634  IDHwt内=0.013 
+CIBERSORT_clr        delta=  1.816  P_raw=3.73e-23  P_adj=0.0496  G4内=0.878  IDHwt内=0.0167 
+MCPcounter           delta=  0.102  P_raw=3.98e-06  P_adj=0.00751  G4内=0.397  IDHwt内=0.675 
+ssGSEA               delta= -0.027  P_raw=1.01e-11  P_adj=0.00962  G4内=0.217  IDHwt内=0.0195 
+MarkerScore          delta=  1.197  P_raw=8.21e-76  P_adj=1.86e-11  G4内=0.0026  IDHwt内=2.36e-06 
+BrainAware_ssGSEA    delta=  0.065  P_raw=9.05e-35  P_adj=1.71e-08  G4内=NA  IDHwt内=NA 
+
+== 方法间 Spearman 相关 == 
+               CIBERSORT_frac CIBERSORT_clr MCPcounter ssGSEA MarkerScore
+CIBERSORT_frac          1.000         0.955      0.370 -0.011       0.580
+CIBERSORT_clr           0.955         1.000      0.354  0.024       0.571
+MCPcounter              0.370         0.354      1.000  0.365       0.507
+ssGSEA                 -0.011         0.024      0.365  1.000       0.185
+MarkerScore             0.580         0.571      0.507  0.185       1.000
+
+== 判定 == 
+CIBERSORT 比例：原始 P=4.49e-26，校正分级后 P=0.287 
+CIBERSORT CLR：原始 P=3.73e-23，校正分级后 P=0.0496 
+MCP-counter：校正分级后 P=0.00751 | ssGSEA：校正分级后 P=0.00962 | 标志基因：校正分级后 P=1.86e-11 
+G4 内部：CIBERSORTCLR P=0.878 | MCP P=0.397 | ssGSEA P=0.217 | 标志基因 P=0.0026 
+Error: unexpected ']' in "cmdf[, N := as.vector(cm[cbind(match(Var1, rownames(cm)), match(Var2, colnames(cm))]"
+Execution halted

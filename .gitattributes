@@ -1,0 +1,9 @@
+# Keep the repository's line endings as they were authored (scripts are LF).
+* text=auto eol=lf
+
+# Binary assets
+*.rds   binary
+*.png   binary
+*.pdf   binary
+*.docx  binary
+*.xlsx  binary

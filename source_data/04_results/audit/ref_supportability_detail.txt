@@ -1,0 +1,89 @@
+== 参考文献支持性人工核对清单（2026-10-11）==
+
+句子出现基因/专名，但该名称未出现在标题+摘要中的条目（共 15 条）：
+
+### [5] 缺失词：IDH1, IDH2 ；句中基因名：IDH1, IDH2
+TITLE: MGMT gene silencing and benefit from temozolomide in glioblastoma.
+摘要片段: <h4>Background</h4>Epigenetic silencing of the MGMT (O6-methylguanine-DNA methyltransferase) DNA-repair gene by promoter methylation compromises DNA repair and has been associated with longer survival in patients with glioblastoma who receive alkylating agents.<h4>Methods</h4>We tested the relationship between MGMT silencing in the tumor and the survival of patients who were enrolled in a randomiz
+引用句: IDH1 and IDH2 mutations reshape the epigenetic landscape through production of 2-hydroxyglutarate and constitute the most important prognostic stratifier in lower-grade glioma and secondary glioblastoma[4], whereas MGMT promoter methylation determines the extent of benefit from temozolomide[5].
+
+### [25] 缺失词：CD14, M2 ；句中基因名：CD14, L1, M2, PD
+TITLE: Immune evasion mediated by PD-L1 on glioblastoma-derived extracellular vesicles.
+摘要片段: Binding of programmed death ligand-1 (PD-L1) to programmed cell death protein-1 (PD1) leads to cancer immune evasion via inhibition of T cell function. One of the defining characteristics of glioblastoma, a universally fatal brain cancer, is its profound local and systemic immunosuppression. Glioblastoma has also been shown to generate extracellular vesicles (EVs), which may play an important role
+引用句: In glioma, tumour-derived extracellular vesicles suppress T cell function through surface PD-L1[25], exosomes released under hypoxia polarise macrophages towards an M2 phenotype and promote tumour progression[26][27], vesicles transfer RNA to microglia[28], and glioma stem cell-derived exosomes suppress T cell immunity by driving CD14+ monocytes towards a monocytic myeloid-derived suppressor cell phenotype[29].
+引用句: These two axes connect through hypoxia, which simultaneously drives exosome release, macrophage polarisation towards M2 and stress adaptation[26][27][79], and the myelo-monocytic enrichment we observed after grade adjustment is consistent with that coupling, as hypoxia-driven exosomes polarise macrophages and suppress T cell function in glioma[25][26][29][28].
+
+### [26] 缺失词：CD14, L1, PD ；句中基因名：CD14, L1, M2, PD
+TITLE: Hypoxic glioma-derived exosomes deliver microRNA-1246 to induce M2 macrophage polarization by targeting TERF2IP via the STAT3 and NF-κB pathways.
+摘要片段: Exosomes are emerging as important elements that participate in intercellular communication and tumor microenvironment modulation, but the exact mechanisms by which tumor exosomes facilitate the generation of the immunosuppressive microenvironment remain unclear. Here we investigated the effects of glioma-derived exosomes (GDEs) on macrophage polarization and glioma progression. We also performed 
+引用句: In glioma, tumour-derived extracellular vesicles suppress T cell function through surface PD-L1[25], exosomes released under hypoxia polarise macrophages towards an M2 phenotype and promote tumour progression[26][27], vesicles transfer RNA to microglia[28], and glioma stem cell-derived exosomes suppress T cell immunity by driving CD14+ monocytes towards a monocytic myeloid-derived suppressor cell phenotype[29].
+引用句: These two axes connect through hypoxia, which simultaneously drives exosome release, macrophage polarisation towards M2 and stress adaptation[26][27][79], and the myelo-monocytic enrichment we observed after grade adjustment is consistent with that coupling, as hypoxia-driven exosomes polarise macrophages and suppress T cell function in glioma[25][26][29][28].
+引用句: These two axes connect through hypoxia, which simultaneously drives exosome release, macrophage polarisation towards M2 and stress adaptation[26][27][79], and the myelo-monocytic enrichment we observed after grade adjustment is consistent with that coupling, as hypoxia-driven exosomes polarise macrophages and suppress T cell function in glioma[25][26][29][28].
+
+### [27] 缺失词：CD14, L1, PD ；句中基因名：CD14, L1, M2, PD
+TITLE: Hypoxic glioma-derived exosomes promote M2-like macrophage polarization by enhancing autophagy induction.
+摘要片段: Exosomes participate in intercellular communication and glioma microenvironment modulation, but the exact mechanisms by which glioma-derived exosomes (GDEs) promote the generation of the immunosuppressive microenvironment are still unclear. Here, we investigated the effects of GDEs on autophagy, the polarization of tumor-associated macrophages (TAMs), and glioma progression. Compared with normoxic
+引用句: In glioma, tumour-derived extracellular vesicles suppress T cell function through surface PD-L1[25], exosomes released under hypoxia polarise macrophages towards an M2 phenotype and promote tumour progression[26][27], vesicles transfer RNA to microglia[28], and glioma stem cell-derived exosomes suppress T cell immunity by driving CD14+ monocytes towards a monocytic myeloid-derived suppressor cell phenotype[29].
+引用句: These two axes connect through hypoxia, which simultaneously drives exosome release, macrophage polarisation towards M2 and stress adaptation[26][27][79], and the myelo-monocytic enrichment we observed after grade adjustment is consistent with that coupling, as hypoxia-driven exosomes polarise macrophages and suppress T cell function in glioma[25][26][29][28].
+
+### [28] 缺失词：CD14, L1, M2, PD ；句中基因名：CD14, L1, M2, PD
+TITLE: Directly visualized glioblastoma-derived extracellular vesicles transfer RNA to microglia/macrophages in the brain.
+摘要片段: <h4>Background</h4>To understand the ability of gliomas to manipulate their microenvironment, we visualized the transfer of vesicles and the effects of tumor-released extracellular RNA on the phenotype of microglia in culture and in vivo.<h4>Methods</h4>Extracellular vesicles (EVs) released from primary human glioblastoma (GBM) cells were isolated and microRNAs (miRNAs) were analyzed. Primary mous
+引用句: In glioma, tumour-derived extracellular vesicles suppress T cell function through surface PD-L1[25], exosomes released under hypoxia polarise macrophages towards an M2 phenotype and promote tumour progression[26][27], vesicles transfer RNA to microglia[28], and glioma stem cell-derived exosomes suppress T cell immunity by driving CD14+ monocytes towards a monocytic myeloid-derived suppressor cell phenotype[29].
+引用句: These two axes connect through hypoxia, which simultaneously drives exosome release, macrophage polarisation towards M2 and stress adaptation[26][27][79], and the myelo-monocytic enrichment we observed after grade adjustment is consistent with that coupling, as hypoxia-driven exosomes polarise macrophages and suppress T cell function in glioma[25][26][29][28].
+
+### [29] 缺失词：L1, M2, PD ；句中基因名：CD14, L1, M2, PD
+TITLE: Systemic T Cells Immunosuppression of Glioma Stem Cell-Derived Exosomes Is Mediated by Monocytic Myeloid-Derived Suppressor Cells.
+摘要片段: A major contributing factor to glioma development and progression is its ability to evade the immune system. Nano-meter sized vesicles, exosomes, secreted by glioma-stem cells (GSC) can act as mediators of intercellular communication to promote tumor immune escape. Here, we investigated the immunomodulatory properties of GCS-derived exosomes on different peripheral immune cell populations. Healthy
+引用句: In glioma, tumour-derived extracellular vesicles suppress T cell function through surface PD-L1[25], exosomes released under hypoxia polarise macrophages towards an M2 phenotype and promote tumour progression[26][27], vesicles transfer RNA to microglia[28], and glioma stem cell-derived exosomes suppress T cell immunity by driving CD14+ monocytes towards a monocytic myeloid-derived suppressor cell phenotype[29].
+引用句: These two axes connect through hypoxia, which simultaneously drives exosome release, macrophage polarisation towards M2 and stress adaptation[26][27][79], and the myelo-monocytic enrichment we observed after grade adjustment is consistent with that coupling, as hypoxia-driven exosomes polarise macrophages and suppress T cell function in glioma[25][26][29][28].
+
+### [44] 缺失词： ；句中基因名：无
+TITLE: (未解析)
+摘要片段: 
+引用句: Prognostic models based on exosome-related genes have been established in several cancer types, including glioblastoma[36][37][38][39][40]; combining single-cell and spatial transcriptomics can localise the cellular source of the signal[41][42], extracellular vesicle signatures related to epithelial-to-mesenchymal transition show prognostic value in non-small-cell lung cancer[43], and exosomal long non-coding RNA ris
+引用句: Pan-cancer exosome-related gene models and analyses combining single-cell and spatial transcriptomics localise such signals to the tumour-myeloid interface[36][37][43][41][42], and exosomal non-coding RNA risk models have been reported in other tumours[44][45].
+
+### [50] 缺失词：R12, STRT ；句中基因名：R12, STRT
+TITLE: Surveying brain tumor heterogeneity by single-cell RNA-sequencing of multi-sector biopsies.
+摘要片段: Brain tumors are among the most challenging human tumors for which the mechanisms driving progression and heterogeneity remain poorly understood. We combined single-cell RNA-seq with multi-sector biopsies to sample and analyze single-cell expression profiles of gliomas from 13 Chinese patients. After classifying individual cells, we generated a spatial and temporal landscape of glioma that reveale
+引用句: Single-cell RNA sequencing data from the CGGA multi-sector glioma single-cell cohort (STRT-seq) (6,148 profiled cells, with clinical annotation covering 14 patients and 75 sample points)[50] and FinnGen R12 summary statistics for brain glioblastoma and astrocytoma (544 cases, 378,749 controls) and for malignant neoplasm of brain (1,894 cases, 378,749 controls) were used for the single-cell and causal analyses.
+
+### [64] 缺失词：FOXM1, MELK ；句中基因名：FOXM1, MELK
+TITLE: EZH2 is essential for glioblastoma cancer stem cell maintenance.
+摘要片段: Overexpression of the polycomb group protein enhancer of zeste homologue 2 (EZH2) occurs in diverse malignancies, including prostate cancer, breast cancer, and glioblastoma multiforme (GBM). Based on its ability to modulate transcription of key genes implicated in cell cycle control, DNA repair, and cell differentiation, EZH2 is believed to play a crucial role in tissue-specific stem cell maintena
+引用句: EZH2, which maintains glioblastoma stem cells, protects them from radiation through the MELK and FOXM1 axis and correlates with progression and grade[64][65][66][67][68], contributed stably, and its retained effect is consistent with a stem-like phenotype in the high-risk group.
+
+### [65] 缺失词：FOXM1, MELK ；句中基因名：FOXM1, MELK
+TITLE: Targeting glioma stem cells through combined BMI1 and EZH2 inhibition.
+摘要片段: Glioblastomas are lethal cancers defined by angiogenesis and pseudopalisading necrosis. Here, we demonstrate that these histological features are associated with distinct transcriptional programs, with vascular regions showing a proneural profile, and hypoxic regions showing a mesenchymal pattern. As these regions harbor glioma stem cells (GSCs), we investigated the epigenetic regulation of these 
+引用句: EZH2, which maintains glioblastoma stem cells, protects them from radiation through the MELK and FOXM1 axis and correlates with progression and grade[64][65][66][67][68], contributed stably, and its retained effect is consistent with a stem-like phenotype in the high-risk group.
+
+### [67] 缺失词：FOXM1, MELK ；句中基因名：FOXM1, MELK
+TITLE: EZH2 protein expression associates with the early pathogenesis, tumor progression, and prognosis of non-small cell lung carcinoma.
+摘要片段: <h4>Purpose</h4>Enhancer of zeste homolog 2 (EZH2) promotes carcinogenesis by epigenetically silencing tumor suppressor genes. We studied EZH2 expression by immunohistochemistry in a large series of non-small cell lung carcinomas (NSCLC) in association with tumor characteristics and patient outcomes.<h4>Experimental design</h4>EZH2 immunohistochemistry expression was analyzed in 265 normal and pre
+引用句: EZH2, which maintains glioblastoma stem cells, protects them from radiation through the MELK and FOXM1 axis and correlates with progression and grade[64][65][66][67][68], contributed stably, and its retained effect is consistent with a stem-like phenotype in the high-risk group.
+
+### [68] 缺失词：FOXM1, MELK ；句中基因名：FOXM1, MELK
+TITLE: miR-101 is down-regulated in glioblastoma resulting in EZH2-induced proliferation, migration, and angiogenesis.
+摘要片段: <h4>Background</h4>Glioblastoma (GBM) is a malignant brain tumor with dismal prognosis. GBM patients have a median survival of less than 2 years. GBM is characterized by fast cell proliferation, infiltrative migration, and by the induction of angiogenesis. MicroRNAs and polycomb group (PcG) proteins have emerged as important regulators of gene expression.<h4>Methods</h4>Here we determined that miR
+引用句: EZH2, which maintains glioblastoma stem cells, protects them from radiation through the MELK and FOXM1 axis and correlates with progression and grade[64][65][66][67][68], contributed stably, and its retained effect is consistent with a stem-like phenotype in the high-risk group.
+
+### [69] 缺失词：ERM ；句中基因名：ERM
+TITLE: The membrane-cytoskeleton linker ezrin is necessary for osteosarcoma metastasis.
+摘要片段: Metastatic cancers, once established, are the primary cause of mortality associated with cancer. Previously, we used a genomic approach to identify metastasis-associated genes in cancer. From this genomic data, we selected ezrin for further study based on its role in physically and functionally connecting the actin cytoskeleton to the cell membrane. In a mouse model of osteosarcoma, a highly metas
+引用句: The first is cytoskeletal and adhesion remodelling, represented by MSN and EZR of the ERM family, which link the plasma membrane to the actin cytoskeleton and are required for migration and metastasis[69][70][71][72]; this axis ranked first, which is also why the score correlates with grade and with myeloid infiltration, since both track the invasive, high-grade phenotype.
+
+### [72] 缺失词：ERM ；句中基因名：ERM
+TITLE: Down-regulation of miR-183 promotes migration and invasion of osteosarcoma by targeting Ezrin.
+摘要片段: Recent studies have emphasized causative links between aberrant microRNA expression patterns and cancer progression. miR-183 is dysregulated in certain types of human cancers. The expression pattern, clinical significance, and biological role of miR-183 in osteosarcoma, however, remain largely undefined. In this paired analysis, we found that miR-183 was markedly down-regulated in osteosarcoma cel
+引用句: The first is cytoskeletal and adhesion remodelling, represented by MSN and EZR of the ERM family, which link the plasma membrane to the actin cytoskeleton and are required for migration and metastasis[69][70][71][72]; this axis ranked first, which is also why the score correlates with grade and with myeloid infiltration, since both track the invasive, high-grade phenotype.
+
+### [79] 缺失词：M2 ；句中基因名：M2
+TITLE: Overexpressed cyclophilin A in cancer cells renders resistance to hypoxia- and cisplatin-induced cell death.
+摘要片段: Cyclophilin A (CypA) has been reported to be overexpressed in cancer cells, especially in solid tumors. To determine the role of CypA in tumorigenesis, we investigated the induction of CypA as well as the role it plays in cancer cells. Here, we have shown that induction of CypA is associated with hypoxia in a variety of cells, including DU145 human prostate cancer cell line. Our analysis of the Cy
+引用句: The second is stress-adaptive translation, represented by EIF2S1 at the core of the integrated stress response and by PPIA, UTP20 and CCT3[73][74][75][76][77][78][79][80][81][82].
+引用句: These two axes connect through hypoxia, which simultaneously drives exosome release, macrophage polarisation towards M2 and stress adaptation[26][27][79], and the myelo-monocytic enrichment we observed after grade adjustment is consistent with that coupling, as hypoxia-driven exosomes polarise macrophages and suppress T cell function in glioma[25][26][29][28].
+
+============================================================
+其余条目（基因/专名均在标题或摘要中出现）：1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 45, 46, 47, 48, 49, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 66, 70, 71, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95

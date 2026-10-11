@@ -1,0 +1,14 @@
+tissue	n_snp	n_gene	genes
+Brain_Amygdala	15	2	EIF2S1,RAB27A
+Brain_Anterior_cingulate_cortex_BA24	0	0	
+Brain_Caudate_basal_ganglia	113	6	ACY3,ADGRE5,LRRK2,MYC,RAB27A,SNX18
+Brain_Cerebellar_Hemisphere	391	5	ACY3,CCT3,PPIA,RAB27A,SNX18
+Brain_Cerebellum	321	8	ACY3,AQP1,CCT3,EZH2,LRRK2,MSN,RAB27A,SNX18
+Brain_Cortex	291	6	ACY3,AQP1,GNG12,LRRK2,RAB27A,SNX18
+Brain_Frontal_Cortex_BA9	120	4	ACY3,ADGRE5,LRRK2,RAB27A
+Brain_Hippocampus	227	4	ADGRE5,LRRK2,RAB27A,SNX18
+Brain_Hypothalamus	2	1	ADGRE5
+Brain_Nucleus_accumbens_basal_ganglia	167	5	ACY3,ADGRE5,LRRK2,MYC,RAB27A
+Brain_Putamen_basal_ganglia	50	4	ADGRE5,CCT3,LRRK2,RAB27A
+Brain_Spinal_cord_cervical_c-1	16	2	ACY3,ADGRE5
+Brain_Substantia_nigra	5	3	ADGRE5,EZH2,LRRK2

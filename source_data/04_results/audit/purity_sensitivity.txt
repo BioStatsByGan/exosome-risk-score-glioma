@@ -1,0 +1,38 @@
+== 纯度校正敏感性分析（2026-10-11 18:55）==
+ESTIMATE 纯度：804 例（中位 0.856，范围 0.355–0.991）
+GBM：paper_ABSOLUTE.purity 可用 343 例
+LGG：paper_ABSOLUTE.purity 可用 418 例
+ABSOLUTE 纯度（唯一样本）：679 例
+风险表 799 例：ESTIMATE 覆盖 799，ABSOLUTE 覆盖 675
+可用于纯度校正的样本：799（ESTIMATE 完整）
+
+(a) TMB（log2）~ Risk + 分级 + IDH：Riskhigh 系数 0.1623（P=0.00899）；再加纯度：0.2021（P=0.00146）
+(b) 22 类 CIBERSORT 再加纯度协变量后 P<0.05 的细胞数：5（校正分级+IDH 时为 5）
+
+(c) Hallmark 关键通路：Riskhigh 系数（校正分级+IDH → 再加纯度）
+    EPITHELIAL_MESENCHYMAL_TRANSITION             0.188 (P=2.1e-11) → 0.095 (P=0.00013)
+    INTERFERON_GAMMA_RESPONSE                     0.292 (P=9.2e-13) → 0.103 (P=0.00047)
+    INTERFERON_ALPHA_RESPONSE                     0.299 (P=2.1e-10) → 0.126 (P=0.0016)
+    ANGIOGENESIS                                  0.167 (P=3.5e-09) → 0.113 (P=4.5e-05)
+    INFLAMMATORY_RESPONSE                         0.190 (P=5.4e-08) → 0.011 (P=0.61)
+    IL6_JAK_STAT3_SIGNALING                       0.231 (P=6.8e-10) → 0.033 (P=0.15)
+
+(d) 药敏 log2(IC50)：Riskhigh 系数（校正分级+IDH → 再加纯度）
+    Temozolomide_1375      -0.229 (P=2.5e-05) → -0.077 (P=0.13)
+    Carmustine_1807        -0.049 (P=0.36) → -0.108 (P=0.048)
+    Cisplatin_1005         -0.380 (P=4.8e-05) → -0.170 (P=0.06)
+
+===== ABSOLUTE 纯度（DNA，独立于表达）复核 =====
+可用样本 675（ESTIMATE 为 799）
+(a) TMB + 分级 + IDH + ABSOLUTE 纯度：系数 0.1386（P=0.0506）
+(b) 22 类 CIBERSORT：再加 ESTIMATE 纯度后 5 类 P<0.05；再加 ABSOLUTE 纯度后 10 类 P<0.05（校正分级+IDH 为 5 类）
+(c) Hallmark 关键通路 + ABSOLUTE 纯度
+    EPITHELIAL_MESENCHYMAL_TRANSITION             0.179 (P=3.3e-09)
+    INTERFERON_GAMMA_RESPONSE                     0.279 (P=6.5e-10)
+    INTERFERON_ALPHA_RESPONSE                     0.279 (P=1.3e-07)
+    ANGIOGENESIS                                  0.154 (P=1.5e-06)
+    INFLAMMATORY_RESPONSE                         0.176 (P=4.2e-07)
+    IL6_JAK_STAT3_SIGNALING                       0.204 (P=2.3e-07)
+(d) Temozolomide_1375      -0.238 (P=9.9e-05)
+(d) Carmustine_1807        -0.109 (P=0.052)
+(d) Cisplatin_1005         -0.366 (P=0.00043)

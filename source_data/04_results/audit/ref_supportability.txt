@@ -1,0 +1,61 @@
+== 参考文献内容支持性自动核对（Europe PMC 元数据 + 摘要，2026-10-11）==
+方法：把正文中含 [n] 的句子分词后，统计其内容词在「文献标题+摘要」中出现的比例（frac）。
+frac 低不代表不支持（可能是同义改写、或该句为多文献并列引用），仅用于挑出需要人工阅读的条目。
+
+解析到摘要：94/95（第 44 条 Am J Transl Res 2018 无 DOI，Europe PMC 未解析）
+正文未出现引用编号：无
+
+--- 按 frac 升序（最低 25 条，需人工确认）---
+44  frac=0.00  句子数=2  内容词=50  共享词=
+     
+80  frac=0.00  句子数=1  内容词=12  共享词=
+     Stable RNA interference-mediated suppression of cyclophilin A diminishes non-small-cell lung tumor growth in v
+59  frac=0.03  句子数=1  内容词=39  共享词=clinical
+     A prognostic nomogram based on LASSO Cox regression in patients with alpha-fetoprotein-negative hepatocellular
+22  frac=0.05  句子数=1  内容词=20  共享词=exosomes
+     Cancer exosomes perform cell-independent microRNA biogenesis and promote tumorigenesis.
+79  frac=0.05  句子数=2  内容词=38  共享词=hypoxia, cell
+     Overexpressed cyclophilin A in cancer cells renders resistance to hypoxia- and cisplatin-induced cell death.
+20  frac=0.06  句子数=2  内容词=51  共享词=distribution, across, calibration
+     Meta-analysis of prediction model performance across multiple studies: Which scale helps ensure between-study 
+95  frac=0.07  句子数=1  内容词=31  共享词=decision, clinical
+     Understanding decision curve analysis in clinical prediction model research.
+60  frac=0.07  句子数=2  内容词=60  共享词=grade, lower-grade, glioblastoma
+     Survival of diffuse astrocytic glioma, IDH1/2 wildtype, with molecular features of glioblastoma, WHO grade IV:
+ 9  frac=0.07  句子数=1  内容词=14  共享词=recurrence
+     Survival and recurrence patterns of multifocal glioblastoma after radiation therapy.
+10  frac=0.07  句子数=1  内容词=14  共享词=recurrence
+     Establishing percent resection and residual volume thresholds affecting survival and recurrence for patients w
+51  frac=0.07  句子数=2  内容词=56  共享词=followed, information, four, shared
+     LASSO‑based Cox‑PH model identifies an 11‑lncRNA signature for prognosis prediction in gastric cancer.
+ 4  frac=0.08  句子数=4  内容词=100  共享词=four, lower-grade, secondary, mutations, clinical, grade, idh2, idh1
+     IDH1 and IDH2 mutations in gliomas.
+76  frac=0.08  句子数=1  内容词=12  共享词=translation
+     Dysregulation of ribosome biogenesis and translational capacity is associated with tumor progression of human 
+77  frac=0.08  句子数=1  内容词=12  共享词=translation
+     METTL16 promotes liver cancer stem cell self-renewal via controlling ribosome biogenesis and mRNA translation.
+78  frac=0.08  句子数=1  内容词=12  共享词=response
+     Cyclophilin A is overexpressed in human pancreatic cancer cells and stimulates cell proliferation through CD14
+81  frac=0.08  句子数=1  内容词=12  共享词=cct3
+     CCT3 acts upstream of YAP and TFCP2 as a potential target and tumour biomarker in liver cancer.
+82  frac=0.08  句子数=1  内容词=12  共享词=cct3
+     Overexpression of chaperonin containing TCP1, subunit 3 predicts poor prognosis in hepatocellular carcinoma.
+91  frac=0.09  句子数=1  内容词=34  共享词=delivery, blood-brain, barrier
+     Exosome delivered anticancer drugs across the blood-brain barrier for brain cancer therapy in Danio rerio.
+92  frac=0.09  句子数=1  内容词=34  共享词=vesicles, delivery, barrier
+     A Biomimetic Drug Delivery System by Integrating Grapefruit Extracellular Vesicles and Doxorubicin-Loaded Hepa
+93  frac=0.09  句子数=1  内容词=34  共享词=work, blood-brain, barrier
+     Engineering Macrophage Exosome Disguised Biodegradable Nanoplatform for Enhanced Sonodynamic Therapy of Gliobl
+94  frac=0.09  句子数=1  内容词=34  共享词=delivery, blood-brain, barrier
+     Immune Exosomes Loading Self-Assembled Nanomicelles Traverse the Blood-Brain Barrier for Chemo-immunotherapy a
+83  frac=0.10  句子数=1  内容词=21  共享词=prognosis, glioblastoma
+     An independently validated nomogram for individualized estimation of survival among patients with newly diagno
+84  frac=0.10  句子数=1  内容词=21  共享词=lower-grade, grade
+     An independently validated survival nomogram for lower-grade glioma.
+86  frac=0.10  句子数=1  内容词=21  共享词=grade, glioblastoma
+     Genomic copy number variation correlates with survival outcomes in WHO grade IV glioma.
+ 3  frac=0.10  句子数=3  内容词=82  共享词=classification, nervous, molecular, central, brain, system, diagnostic
+     The 2021 WHO Classification of Tumors of the Central Nervous System: a summary.
+
+--- 全部 95 条（编号 / frac）---
+1:0.21 2:0.32 3:0.10 4:0.08 5:0.39 6:0.25 7:0.14 8:0.19 9:0.07 10:0.07 11:0.22 12:0.26 13:0.34 14:0.39 15:0.31 16:0.31 17:0.39 18:0.23 19:0.24 20:0.06 21:0.36 22:0.05 23:0.30 24:0.29 25:0.26 26:0.16 27:0.17 28:0.23 29:0.30 30:0.14 31:0.18 32:0.18 33:0.26 34:0.23 35:0.16 36:0.28 37:0.32 38:0.22 39:0.33 40:0.32 41:0.30 42:0.18 43:0.26 44:0.00 45:0.24 46:0.13 47:0.16 48:0.22 49:0.12 50:0.27 51:0.07 52:0.12 53:0.15 54:0.23 55:0.19 56:0.15 57:0.19 58:0.12 59:0.03 60:0.07 61:0.36 62:0.32 63:0.46 64:0.18 65:0.14 66:0.46 67:0.14 68:0.18 69:0.15 70:0.18 71:0.11 72:0.11 73:0.33 74:0.33 75:0.33 76:0.08 77:0.08 78:0.08 79:0.05 80:0.00 81:0.08 82:0.08 83:0.10 84:0.10 85:0.24 86:0.10 87:0.19 88:0.18 89:0.18 90:0.18 91:0.09 92:0.09 93:0.09 94:0.09 95:0.07

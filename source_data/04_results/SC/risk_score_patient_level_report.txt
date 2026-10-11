@@ -1,0 +1,5 @@
+患者层面汇总（肿瘤细胞均值，14 位患者）
+RiskWeighted vs Proliferation1: rho = 0.240, P = 0.409 (n = 14 位患者)
+RiskWeighted vs Antigenpresentation1: rho = 0.046, P = 0.88 (n = 14 位患者)
+RiskModule1 vs Proliferation1: rho = 0.446, P = 0.112 (n = 14 位患者)
+混合模型 Proliferation ~ RiskWeighted + (1|patient): 斜率 = 0.1521, t = 6.245（lme4 不直接给 P 值）

@@ -1,0 +1,35 @@
+# ---- data: never committed (see DATA.md) ----
+00_data/
+02_inputs/
+*.rds
+!source_data/**/*.rds
+*.RData
+*.tar
+*.tar.gz
+*.gz
+*.bgz
+*.besd
+*.epi
+*.esi
+*.maf
+*.vcf
+*.bam
+*.h5ad
+
+# ---- large intermediates / scratch ----
+scratch/
+Rplots.pdf
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.Rhistory
+.Rproj.user/
+*.Rproj
+*.swp
+~$*
+
+# ---- local secrets ----
+.env
+*.key

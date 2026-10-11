@@ -1,0 +1,21 @@
+样本 799（高危 399，低危 400）
+ssGSEA 特征数 29，含中性粒行: TRUE
+中性粒标志基因（7 个）: FCGR3B, CSF3R, CXCR2, FPR1, AQP9, S100A12, MMP9
+
+== 五种中性粒估计的组间差异 ==
+
+== 统一对比表（含脑特异署名集）==
+CIBERSORT_frac       delta=  0.012  P_raw=4.49e-26  P_adj(分级)=0.756  P_adj(分级+IDH)=0.287  G4内=0.634  IDHwt内=0.013
+CIBERSORT_clr        delta=  1.816  P_raw=3.73e-23  P_adj(分级)=0.122  P_adj(分级+IDH)=0.0496  G4内=0.878  IDHwt内=0.0167
+MCPcounter           delta=  0.102  P_raw=3.98e-06  P_adj(分级)=0.000126  P_adj(分级+IDH)=0.00751  G4内=0.397  IDHwt内=0.675
+ssGSEA               delta= -0.027  P_raw=1.01e-11  P_adj(分级)=0.885  P_adj(分级+IDH)=0.00962  G4内=0.217  IDHwt内=0.0195
+MarkerScore          delta=  1.197  P_raw=8.21e-76  P_adj(分级)=2.11e-16  P_adj(分级+IDH)=1.86e-11  G4内=0.0026  IDHwt内=2.36e-06
+BrainAware_ssGSEA    delta=  0.060  P_raw=2.24e-36  P_adj(分级)=1.71e-08  P_adj(分级+IDH)=5.24e-05  G4内=0.00503  IDHwt内=0.000124
+
+== 方法间 Spearman 相关 ==
+
+== 判定 ==
+CIBERSORT 比例：原始 P=4.49e-26，校正分级 P=0.756，校正分级+IDH P=0.287
+CIBERSORT CLR：原始 P=3.73e-23，校正分级 P=0.122，校正分级+IDH P=0.0496
+MCP-counter：分级+IDH P=0.00751 | ssGSEA：0.00962 | 标志基因：1.86e-11 | 脑特异署名：5.24e-05
+G4 内部：CIBERSORTCLR P=0.878 | MCP P=0.397 | ssGSEA P=0.217 | 标志基因 P=0.0026

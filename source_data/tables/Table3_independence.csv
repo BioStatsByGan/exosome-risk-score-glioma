@@ -1,0 +1,15 @@
+﻿Model,Variable,HR,95% CI,P
+"TCGA, univariable",Risk score,2.72,2.45-3.01,<0.001
+"TCGA, univariable",Age,1.06,1.05-1.07,<0.001
+"TCGA, univariable",Sex,1.25,1.01-1.55,0.040
+"TCGA, univariable",WHO grade,2.72,1.78-4.16,<0.001
+"TCGA, univariable",IDH status,9.35,7.21-12.12,<0.001
+"TCGA, multivariable",Risk score,2.15,1.72-2.68,<0.001
+"TCGA, multivariable",Age,1.03,1.02-1.04,<0.001
+"TCGA, multivariable",Male (vs female),1.17,0.92-1.48,0.202
+"TCGA, multivariable",WHO grade G3 (vs G2),1.38,0.87-2.20,0.171
+"TCGA, multivariable",WHO grade G4 (vs G2),1.46,0.84-2.54,0.181
+"TCGA, multivariable",IDH wildtype (vs mutant),1.05,0.63-1.78,0.841
+"CGGA-325, multivariable (adjusted for WHO grade)",Risk score,1.73,1.44-2.08,<0.001
+"CGGA-325, multivariable (adjusted for WHO grade)",WHO grade III,2.68,1.73-4.16,<0.001
+"CGGA-325, multivariable (adjusted for WHO grade)",WHO grade IV,4.68,2.98-7.35,<0.001

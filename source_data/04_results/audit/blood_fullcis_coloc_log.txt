@@ -1,0 +1,30 @@
+== 血液端全 cis 窗共定位（eQTLGen 100kb × FinnGen R12，2026-10-11 19:14）==
+eQTLGen 100kb cis: 19156973 行, 19075 基因
+模型基因在 eQTLGen 的 cis 行数: 14367（基因 12 个：ACY3, AQP1, CCT3, EIF2S1, EZH2, EZR, LRRK2, MYC, PPIA, RAB27A, SNX18, UTP20）
+（未出现在 eQTLGen 100kb cis 中的基因：MSN, GNG12, ADGRE5）
+FinnGen 行数: 21325042；列: chrom, pos, ref, alt, rsids, nearest_genes, pval, mlogp, beta, sebeta, af_alt, af_alt_cases, af_alt_controls
+结局端仅保留相关染色体后: 9837106 行
+结局：544 例 / 378749 对照（FinnGen R12 C3_GBM_ASTROCYTOMA_EXALLC）
+ACY3：待 coloc SNP 633 个（MAF 中位 0.089）
+ACY3：nSNP=633，PP.H4=0.054，PP.H3=0.048，PP.H0=0.000
+AQP1：待 coloc SNP 1077 个（MAF 中位 0.058）
+AQP1：nSNP=1077，PP.H4=0.029，PP.H3=0.071，PP.H0=0.000
+CCT3：待 coloc SNP 592 个（MAF 中位 0.194）
+CCT3：nSNP=592，PP.H4=0.031，PP.H3=0.039，PP.H0=0.000
+EIF2S1：等位基因一致且可用的 SNP 仅 0 个，跳过 coloc
+EZH2：待 coloc SNP 425 个（MAF 中位 0.067）
+EZH2：nSNP=425，PP.H4=0.203，PP.H3=0.043，PP.H0=0.000
+EZR：待 coloc SNP 134 个（MAF 中位 0.090）
+EZR：nSNP=134，PP.H4=0.061，PP.H3=0.009，PP.H0=0.000
+LRRK2：待 coloc SNP 1001 个（MAF 中位 0.116）
+LRRK2：nSNP=1001，PP.H4=0.027，PP.H3=0.068，PP.H0=0.000
+MYC：等位基因一致且可用的 SNP 仅 0 个，跳过 coloc
+PPIA：待 coloc SNP 608 个（MAF 中位 0.060）
+PPIA：nSNP=608，PP.H4=0.054，PP.H3=0.042，PP.H0=0.000
+RAB27A：待 coloc SNP 889 个（MAF 中位 0.079）
+RAB27A：nSNP=889，PP.H4=0.036，PP.H3=0.076，PP.H0=0.000
+SNX18：等位基因一致且可用的 SNP 仅 0 个，跳过 coloc
+UTP20：待 coloc SNP 394 个（MAF 中位 0.073）
+UTP20：nSNP=394，PP.H4=0.054，PP.H3=0.031，PP.H0=0.000
+
+（血液）全窗共定位：9 个基因，PP.H4 最大 0.203（EZH2）

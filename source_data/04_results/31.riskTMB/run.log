@@ -1,0 +1,13 @@
+TMB 与风险评分匹配样本: 754 
+TMB：高风险组中位 1.08 vs 低风险组 0.58 突变/Mb，Wilcoxon P(基于 log2(TMB+1)) = 1.55e-55
+      log2(TMB+1) 中位：高风险 1.06 vs 低风险 0.66
+风险评分与 log2(TMB) Spearman rho = 0.577, P = 3.51e-68
+saved: 03_figures/Fig8B_tmb.pdf 
+
+多因素 Cox（风险评分 + log2TMB）:
+  Variable               HR        P
+ riskScore 3.01 (2.68-3.38) 2.23e-77
+    logTMB 0.86 (0.75-1.00) 4.93e-02
+
+四组 log-rank P = 0
+saved: 03_figures/Fig8C_tmb_surv.pdf 

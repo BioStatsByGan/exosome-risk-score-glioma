@@ -1,0 +1,11 @@
+正系数基因 9 个: PPIA, UTP20, RAB27A, MSN, EZH2, GNG12, ADGRE5, LRRK2, AQP1
+负系数基因 6 个: ACY3, MYC, EZR, CCT3, SNX18, EIF2S1
+RiskWeighted vs RiskPos1: rho = +0.582
+RiskWeighted vs RiskNeg1: rho = -0.715
+RiskPos1 vs RiskNeg1（肿瘤细胞内）: rho = -0.039
+肿瘤细胞内（细胞级）:
+RiskPos1 vs Proliferation1: rho = +0.177, P = 7.91e-17 (n = 2190)
+RiskNeg1 vs Proliferation1: rho = +0.070, P = 0.001 (n = 2190)
+肿瘤细胞内（患者层面，n=14）:
+RiskPos1 vs Proliferation1: rho = +0.327, P = 0.253 (n = 14)
+RiskNeg1 vs Proliferation1: rho = -0.033, P = 0.916 (n = 14)

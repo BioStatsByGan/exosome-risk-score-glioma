@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the manuscript below."
+title: "exosome-risk-score-glioma: analysis code for an exosome-related gene score in glioma"
+abstract: "Analysis code for a 15-gene exosome-related prognostic risk score in glioma (TCGA-GBM/LGG, external validation in CGGA-325 and CGGA-693), with SHAP interpretation, pathway and immune deconvolution analyses, tumour mutational burden, drug-sensitivity prediction, single-cell mapping and Mendelian randomization with colocalization."
+type: software
+license: MIT
+repository-code: "https://github.com/BioStatsByGan/exosome-risk-score-glioma"
+keywords:
+  - glioma
+  - exosome
+  - prognostic model
+  - SHAP
+  - TCGA
+  - CGGA
+  - Mendelian randomization
+# TODO: fill in the author list and the manuscript DOI before submission / after acceptance.
+authors:
+  - family-names: "TBD"
+    given-names: "TBD"
+preferred-citation:
+  type: article
+  title: "An exosome-related gene score for glioma: reproducible risk stratification, SHAP-based dissection of its drivers, and its myeloid-enriched tumour-state phenotype"
+  year: 2026
+  journal: "TBD"
