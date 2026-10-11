@@ -1,0 +1,6 @@
+Cohort,n,C_index,HR_per_unit,Score_median,Score_SD
+TCGA (15-gene, published),799,0.824,2.718,-0.757,1.415
+TCGA (fixed-coefficient 13-gene),799,0.821,2.945,-1.737,1.238
+TCGA (13-gene refitted),799,0.821,2.718,,
+CGGA-325 (fixed-coefficient 13-gene),313,0.731,2.389,-0.473,0.952
+CGGA-693 (fixed-coefficient 13-gene),657,0.722,2.145,-0.781,0.933

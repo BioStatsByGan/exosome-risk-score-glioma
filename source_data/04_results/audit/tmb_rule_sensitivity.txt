@@ -1,0 +1,20 @@
+== TMB 文件选择规则敏感性（2026-10-12 00:17）==
+MAF 文件 986 个；肿瘤样本（01/02）文件 986 个；患者 879 例
+每个患者的肿瘤 MAF 文件数：1 份 776 例、2 份 99 例、≥3 份 4 例（最多 3 份）
+样本类型构成（全部肿瘤文件）：01（原发）957，02（复发）29
+
+各规则下所选文件类型与 TMB 中位数：
+  max_variants (current)   患者  879 | 01 861 / 02 18 | 中位 TMB 0.816
+  min_variants             患者  879 | 01 870 / 02 9 | 中位 TMB 0.789
+  median_file              患者  879 | 01 861 / 02 18 | 中位 TMB 0.816
+  primary_sample_only      患者  879 | 01 878 / 02 1 | 中位 TMB 0.789
+  pooled_unique_variants   患者  879 | 01 nan / 02 nan | 中位 TMB 0.816
+
+各规则下的「高危 vs 低危」TMB 比较（log2(TMB+1)，Wilcoxon；并给出校正 WHO 分级后的线性模型系数）：
+  max_variants (current)   n=754 | 中位 log2TMB 高危 1.06 vs 低危 0.66 | P=1.6e-55 | 校正分级后 β(高危)=0.219，P=0.001
+  min_variants             n=754 | 中位 log2TMB 高危 1.00 vs 低危 0.66 | P=1.3e-51 | 校正分级后 β(高危)=0.205，P=0.001
+  median_file              n=754 | 中位 log2TMB 高危 1.04 vs 低危 0.66 | P=5e-56 | 校正分级后 β(高危)=0.214，P=0.001
+  primary_sample_only      n=754 | 中位 log2TMB 高危 1.04 vs 低危 0.66 | P=3.7e-56 | 校正分级后 β(高危)=0.217，P=0.001
+  pooled_unique_variants   n=754 | 中位 log2TMB 高危 1.06 vs 低危 0.66 | P=1.5e-55 | 校正分级后 β(高危)=0.219，P=0.001
+
+表 S15 已写入 稿/tables/表S15_TMB文件规则敏感性.csv

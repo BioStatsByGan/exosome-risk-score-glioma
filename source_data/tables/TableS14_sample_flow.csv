@@ -1,0 +1,39 @@
+Cohort,Step,n,Note
+TCGA,Tumour expression profiles (log2 TPM+1),804,02_inputs/TCGA_glioma_tumor_log2tpm.csv
+TCGA,With 15-gene expression and risk score,799,
+TCGA,Analysis set (risk score + survival),799,
+TCGA,Grade recorded (G2/G3/G4) among analysis set,726,
+TCGA,Grade missing among analysis set,73,
+TCGA,IDH recorded (mutant/wildtype),763,
+TCGA,MGMT recorded,726,
+TCGA,TMB computable from somatic MAF,879,
+TCGA,TMB + expression + survival (joint analysis),754,
+TCGA,CIBERSORT fractions,799,
+TCGA,Predicted drug sensitivity (oncoPredict/GDSC2),799,
+TCGA,ESTIMATE-derived purity available,799,
+TCGA,DNA-based ABSOLUTE purity available,675,
+TCGA,Nomogram model complete cases (score+age+grade+IDH),691,used for calibration / Brier / DCA
+TCGA,Single-cell analysis,4738,4738 cells from 14 patients (CGGA 10X multi-sector cohort)
+CGGA-325,Enrolled with expression,325,
+CGGA-325,Analysis set (with survival data),313,
+CGGA-325,  of analysis set: Primary,222,
+CGGA-325,  of analysis set: Recurrent,58,
+CGGA-325,  of analysis set: Secondary,29,
+CGGA-325,  of analysis set: type unrecorded,4,
+CGGA-325,Grade recorded (WHO II/III/IV) in analysis set,309,
+CGGA-325,IDH recorded in analysis set,312,
+CGGA-325,MGMT recorded in analysis set,295,
+CGGA-325,Genes available for the score,13,ADGRE5 and AQP1 absent; fixed original coefficients used
+CGGA-693,Enrolled with expression,693,
+CGGA-693,Analysis set (with survival data),657,
+CGGA-693,  of analysis set: Primary,404,
+CGGA-693,  of analysis set: Recurrent,253,
+CGGA-693,  of analysis set: type unrecorded,0,
+CGGA-693,Grade recorded (WHO II/III/IV) in analysis set,657,
+CGGA-693,IDH recorded in analysis set,609,
+CGGA-693,MGMT recorded in analysis set,522,
+CGGA-693,Genes available for the score,13,ADGRE5 and AQP1 absent; fixed original coefficients used
+MR and colocalization,Gene-tissue combinations tested,49,13 genes x brain regions with cis-eQTL
+MR and colocalization,FinnGen R12 glioma cases (primary outcome),544,C3_GBM_ASTROCYTOMA_EXALLC
+MR and colocalization,Brain-tissue colocalization pairs (restricted variants),32,source files retained significant pairs only
+MR and colocalization,Model genes with blood full-cis-window data (eQTLGen),9,of 15

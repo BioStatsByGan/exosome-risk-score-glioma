@@ -1,0 +1,3 @@
+== 共线性与 EPV（2026-10-12 00:53）==
+TCGA VIF: riskScore=5.85, age=1.53, GradeG3=1.60, GradeG4=3.95, IDHWT=4.26
+CGGA-325 VIF: riskScore=1.69, factor(Grade, levels = c("WHO II", "WHO III", "WHO IV"))WHO III=1.54, factor(Grade, levels = c("WHO II", "WHO III", "WHO IV"))WHO IV=2.26

@@ -1,0 +1,11 @@
+== 预测生存率量纲核对（2026-10-12 00:14）==
+n=691，事件 302；mean(lp)=-3.47e-16（说明 lp 已中心化）
+survest()（正确）             预测均值：0.799/0.536/0.425
+basehaz(centered=TRUE )  预测均值：0.799/0.536/0.425  与 survest 最大差 0.000
+basehaz(centered=FALSE)  预测均值：0.930/0.760/0.641  与 survest 最大差 0.224
+Kaplan-Meier 观测             ：0.798/0.523/0.390
+
+Time   survest（修正后）       basehaz(centered=FALSE)（旧）
+1      Brier 0.110 / IPA 0.317        Brier 0.149 / IPA 0.077
+3      Brier 0.094 / IPA 0.625        Brier 0.177 / IPA 0.292
+5      Brier 0.117 / IPA 0.507        Brier 0.180 / IPA 0.244

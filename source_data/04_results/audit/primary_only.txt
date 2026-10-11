@@ -1,0 +1,17 @@
+== CGGA 原发肿瘤限定分析（2026-10-12 00:08）==
+CGGA-325 临床表字段：CGGA_ID | PRS_type | Histology | Grade | Gender | Age | OS | Censor (alive=0; dead=1) | Radio_status (treated=1;un-treated=0) | Chemo_status (TMZ treated=1;un-treated=0) | IDH_mutation_status | 1p19q_codeletion_status | MGMTp_methylation_status
+   含日期/时间起点类字段：
+CGGA-693 临床表字段：CGGA_ID | PRS_type | Histology | Grade | Gender | Age | OS | Censor (alive=0; dead=1) | Radio_status (treated=1;un-treated=0) | Chemo_status (TMZ treated=1;un-treated=0) | IDH_mutation_status | 1p19q_codeletion_status | MGMTp_methylation_status
+   含日期/时间起点类字段：
+
+== CGGA-325：可分析 313 例（Primary=222 Recurrent=58 Secondary=29）
+   全部       n=313，事件 218 | C=0.731 | 每单位 HR=2.39 (2.05–2.78) P=5.8e-29 | log-rank P=0 | 校正分级后 HR=1.73 (1.44–2.08) P=5.11e-09
+   仅原发    n=222，事件 138 | C=0.783 | 每单位 HR=2.82 (2.33–3.41) P=1.4e-26 | log-rank P=0 | 校正分级后 HR=2.15 (1.69–2.72) P=2.97e-10
+   仅复发    n= 58，事件  47 | C=0.633 | 每单位 HR=1.80 (1.25–2.59) P=0.0015 | log-rank P=0.024 | 校正分级后 HR=1.61 (1.11–2.35) P=0.013
+   仅继发：样本过少，跳过
+
+== CGGA-693：可分析 657 例（Primary=404 Recurrent=253）
+   全部       n=657，事件 394 | C=0.722 | 每单位 HR=2.15 (1.93–2.39) P=1.1e-44 | log-rank P=0 | 校正分级后 HR=1.75 (1.55–1.98) P=<2.2e-16
+   仅原发    n=404，事件 209 | C=0.762 | 每单位 HR=2.47 (2.14–2.85) P=8.4e-35 | log-rank P=0 | 校正分级后 HR=1.93 (1.63–2.28) P=3.94e-14
+
+表 S11 已写入 稿/tables/表S11_原发肿瘤限定分析.csv

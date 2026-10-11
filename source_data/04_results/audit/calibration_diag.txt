@@ -1,0 +1,9 @@
+== 校准诊断（2026-10-12 00:53）==
+ Time Slope Intercept Bin_low_pred Bin_low_obs Bin_high_pred Bin_high_obs
+    1  1.09     -0.07         0.43        0.44          0.98         1.00
+    3  1.80     -0.89         0.43        0.06          0.98         1.00
+    5  1.53     -0.81         0.43        0.00          0.98         0.87
+ n_bins
+      6
+      6
+      6

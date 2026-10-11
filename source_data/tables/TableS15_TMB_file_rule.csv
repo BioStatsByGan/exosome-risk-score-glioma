@@ -1,0 +1,6 @@
+rule,n_patients,median_log2TMB_high,median_log2TMB_low,P_high_vs_low,beta_highrisk_grade_adj,P_grade_adj
+max_variants (current),754,1.056,0.659,1.6e-55,0.219,0.001
+min_variants,754,1.0,0.659,1.3e-51,0.205,0.001
+median_file,754,1.037,0.659,5e-56,0.214,0.001
+primary_sample_only,754,1.037,0.659,3.7e-56,0.217,0.001
+pooled_unique_variants,754,1.056,0.659,1.5e-55,0.219,0.001

@@ -64,15 +64,20 @@ metrics <- function(d, label) {
   }
   CAL[[label]] <<- cal_list
 
-  ## 2) 时间依赖 Brier 分数与 IPA（Graf 型 IPW，手算，公式与 audit_b_group.R 相同）
+  ## 2) 时间依赖 Brier 分数与 IPA（Graf 型 IPW）
+  ## 关键修正（2026-10-12）：预测生存率必须用 survest()（rms 内部按 datadist 中心化后取基线风险）。
+  ## 旧写法 basehaz(centered = FALSE) 配 predict(type="lp") 的中心化线性预测子，量纲不匹配，
+  ## 会把预测生存率整体抬高（TCGA 691 例 3 年 0.76 vs KM 0.52），从而低估模型的预测准确度。
   kmc <- survfit(Surv(futime, 1 - fustat) ~ 1, data = d)   # 删失分布
   Gt <- function(t) {
     s <- summary(kmc, times = t, extend = TRUE)$surv
     ifelse(is.na(s) | s <= 0, min(s[!is.na(s) & s > 0], 1), s)
   }
-  bh <- basehaz(f, centered = FALSE)
-  H0 <- approx(bh$time, bh$hazard, xout = TIMES, rule = 2)$y
-  sp <- exp(-outer(exp(predict(f, type = "lp")), H0))
+  sp <- survest(f, newdata = d, times = TIMES)$surv
+  say("   预测生存率均值：%s（与 KM 观测 %s 对照）",
+      paste(sprintf("%.3f", colMeans(sp)), collapse = "/"),
+      paste(sprintf("%.3f", sapply(TIMES, function(u)
+        summary(survfit(Surv(futime, fustat) ~ 1, data = d), times = u, extend = TRUE)$surv)), collapse = "/"))
   bs <- do.call(rbind, lapply(seq_along(TIMES), function(k) {
     t <- TIMES[k]; Sh <- sp[, k]
     ev <- d$fustat == 1 & d$futime <= t

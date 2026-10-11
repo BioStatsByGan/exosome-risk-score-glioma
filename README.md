@@ -12,9 +12,10 @@ Analysis code and derived result tables for the manuscript
 
 | Path | Contents |
 |---|---|
-| `scripts/` | 84 analysis scripts (R / Python / shell) for the whole pipeline, plus `scripts/README.md` with the detailed run order, environment and package list |
+| `scripts/` | 90 analysis scripts (R / Python / shell) for the whole pipeline, plus `scripts/README.md` with the detailed run order, environment and package list |
 | `source_data/04_results/` | Derived result tables behind every figure and table (`04_results/` in the manuscript's Supplementary Source Data) |
-| `source_data/tables/` | Table 1-3 and Table S1-S9 as CSV (ASCII file names; see `Tables_map.csv` below) |
+| `figures/` | Supplementary Figure S7 (IPCW decision curve), produced by `51_dca_calibration_diag.R` |
+| `source_data/tables/` | Table 1-3 and Table S1-S15 as CSV (ASCII file names; see `Tables_map.csv` below) |
 | `source_data/MANIFEST.md` | Panel-by-panel mapping between figures/tables and their source files |
 
 The 15-gene score is built in TCGA-GBM/LGG, validated in CGGA-325 and CGGA-693, and interpreted with SHAP;
@@ -59,6 +60,12 @@ Mendelian randomization (`91_mr.R`) -> reviewer-requested supplementary analyses
    environment (assign with `<<-`), otherwise `cph()` fails with "dataset dd not found".
 4. **R 4.4 `sprintf()`** raises `too few arguments` when the format string contains non-ASCII characters
    *and* vector arguments are passed; keep such format strings ASCII.
+5. **`rms::cph()` prediction.** `predict(type = "lp")` is centred on the `datadist` means, so it must be paired
+   with `basehaz(centered = TRUE)` or, better, with `survest()`. Mixing it with `basehaz(centered = FALSE)`
+   shifts every predicted survival probability upward and inflates the Brier score; script
+   `audit_prediction_scale.R` compares the two implementations.
+6. **`data.table::fread()` inside a function** re-evaluates its `input` argument, so `fread(sprintf(...))` loses
+   the arguments; assign the path to a variable first.
 
 ## Data
 
@@ -73,7 +80,7 @@ the analysis chain; derived tables in `source_data/` let you check the figures w
 | Training discrimination (TCGA) | C-index 0.824; multivariable HR 2.15 (1.72-2.68) |
 | External validation | CGGA-325 C-index 0.731; CGGA-693 0.722 |
 | Increment over a clinical model | dC 0.010 (TCGA), 0.032 (CGGA-325), 0.044 (CGGA-693), all bootstrap 95% CI excluding 0 |
-| Calibration / prediction error | slopes 1.05-1.19 (1-year) and 1.46-1.65 (3-5 years) in CGGA; Brier/IPA in `source_data/tables/TableS9_external_calibration.csv` |
+| Calibration / prediction error | slopes 1.05-1.19 (1-year) and 1.46-1.65 (3-5 years) in CGGA; indices of prediction accuracy 0.317/0.625/0.507 (TCGA), 0.244/0.492/0.501 (CGGA-325) and 0.197/0.339/0.310 (CGGA-693), in `source_data/tables/TableS9_external_calibration.csv` |
 | Germline causality | no significant MR estimate (49 tests); max PP.H4 0.06 (brain, restricted) and 0.203 (blood, full cis window) |
 
 ## Citation

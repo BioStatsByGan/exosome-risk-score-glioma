@@ -50,6 +50,13 @@
 | **图 S6** 与 **表 S9** 外部队列校准与预测误差（三个队列；TCGA 一列与正文 §3.10 同值） | `04_results/audit/external_calibration.txt` → `tables/表S9_外部队列校准与预测误差.csv`（投稿包 `Tables/TableS9_external_calibration.csv` 与其一致；脚本 `47_ext_calibration.R`） |
 | 单细胞正/负系数基因子集（RiskPos/RiskNeg） | `04_results/SC/risk_pos_neg_modules.txt`、`risk_module_by_celltype.csv` |
 | 参考文献内容支持性核对（Europe PMC 摘要/开放获取全文；脚本见 `refcheck_*.py`） | `04_results/audit/ref_supportability.txt`、`ref_supportability_detail.txt`、`ref_supportability_numbers.txt`、`ref_verify.json` |
+| **表 S10** 固定系数 13 基因评分对照（TCGA/两 CGGA；含 TPM vs FPKM 尺度） | `04_results/audit/gene13_fixed.txt` → `tables/表S10_13基因固定系数对照.csv` |
+| **表 S11** CGGA 原发肿瘤限定分析 | `04_results/audit/primary_only.txt` → `tables/表S11_原发肿瘤限定分析.csv` |
+| **表 S12** 各基因平均 |SHAP| 与留一/置换 ΔC | `04_results/audit/shap_ablation.txt` → `tables/表S12_SHAP消融与置换.csv` |
+| **图 S7** 与 **表 S13** IPCW 决策曲线、校准截距、共线性与子集选择检查 | `04_results/audit/dca_ipcw.txt`、`calibration_diag.txt`、`collinearity.txt` → `tables/表S13_校准与DCA诊断.csv` |
+| **表 S14** 分析样本流程（每个分析的分母） | `04_results/audit/sample_flow.txt` → `tables/表S14_分析样本流程.csv` |
+| **表 S15** TMB 文件选择规则敏感性 | `04_results/audit/tmb_rule_sensitivity.txt` → `tables/表S15_TMB文件规则敏感性.csv` |
+| 预测生存率量纲核对（Brier 修正依据） | `04_results/audit/prediction_scale_check.txt` |
 | 图 8D 决策曲线（含仅临床变量模型） | `04_results/audit/dca_3year.txt`（列：model/clinical/all/none） |
 | 图 9C/9D 与患者层面统计（加权评分、14 位患者） | `04_results/SC/risk_module_scores.txt`、`risk_module_by_celltype.csv`、`risk_module_correlation.txt`、`risk_score_patient_level.txt`、`risk_score_patient_level_report.txt` |
 | 嵌套交叉验证（全流程乐观度 0.022，各折 11–29 基因） | `04_results/audit/nested_cv.txt`、`nested_cv_log.txt` |

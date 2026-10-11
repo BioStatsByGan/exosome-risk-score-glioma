@@ -52,7 +52,10 @@ p <- ggplot(nb2, aes(thresholds, nb, colour = model)) +
                       labels = c("Full model", "Clinical only", "Treat all", "Treat none"), name = "") +
   labs(x = "Threshold probability", y = "Net benefit") +
   theme(legend.position = c(0.75, 0.85))
-save_pdf(p, "03_figures/Fig12_dca.pdf", 4.8, 4.4)
+## 注意（2026-10-12）：主图 8D 现由 51_dca_calibration_diag.R 用 IPCW 口径产出（Fig12_dca.*）。
+## 本段的完整随访子集（n=396）曲线改为单独文件保存，仅作对照，不再覆盖主图。
+save_pdf(p, "03_figures/Fig8D_dca_completecase.pdf", 4.8, 4.4)
+cat("完整随访子集 DCA 已单独保存：03_figures/Fig8D_dca_completecase.pdf（主图 8D 见 51 脚本的 IPCW 版本）\n")
 
 ## ---------- B2 时间依赖 Brier 分数与 IPA ----------
 cat("\n========== B2 时间依赖 Brier 分数 ==========\n")
@@ -66,11 +69,14 @@ Gt <- function(t) {
   s <- summary(kmc, times = t, extend = TRUE)$surv
   ifelse(is.na(s) | s <= 0, min(s[!is.na(s) & s > 0], 1), s)
 }
-## 预测生存率用基线累积风险 × exp(lp) 手算（survest 对缺失协变量会返回 NA）
-bh <- basehaz(f, centered = FALSE)
-H0 <- approx(bh$time, bh$hazard, xout = c(1, 3, 5), rule = 2)$y
-lp <- predict(f, type = "lp")
-surv_pred <- exp(-outer(exp(lp), H0))
+## 预测生存率交给 rms（2026-10-12 修正）：
+## 旧写法用 basehaz(centered = FALSE) 配 predict(type="lp") 的中心化线性预测子，二者量纲不匹配，
+## 会把预测生存率整体抬高（TCGA 691 例 3 年预测 0.76 vs KM 0.52），Brier 被高估、IPA 被低估。
+## 现统一用 survest()，与 calibrate()/rms 内部口径一致。
+surv_pred <- survest(f, newdata = d, times = c(1, 3, 5))$surv
+cat("预测生存率均值:", paste(sprintf("%.3f", colMeans(surv_pred)), collapse = "/"),
+    "| KM 观测:", paste(sprintf("%.3f", sapply(c(1,3,5), function(u)
+      summary(survfit(Surv(futime, fustat) ~ 1, data = d), times = u, extend = TRUE)$surv)), collapse = "/"), "\n")
 resB <- do.call(rbind, lapply(seq_along(c(1, 3, 5)), function(k) {
   t <- c(1, 3, 5)[k]
   Shat <- surv_pred[, k]

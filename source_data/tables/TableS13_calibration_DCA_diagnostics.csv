@@ -1,0 +1,28 @@
+Analysis,Metric,Time_years,Value
+IPCW DCA, 3-year death (n=691),net benefit, full model, threshold 0.3,3,0.408
+IPCW DCA, 3-year death (n=691),net benefit, clinical only, threshold 0.3,3,0.39
+IPCW DCA, 3-year death (n=691),net benefit, treat all, threshold 0.3,3,0.253
+IPCW DCA, 3-year death (n=691),net benefit, full model, threshold 0.5,3,0.356
+IPCW DCA, 3-year death (n=691),net benefit, clinical only, threshold 0.5,3,0.351
+IPCW DCA, 3-year death (n=691),net benefit, treat all, threshold 0.5,3,-0.046
+Complete-case DCA (n=396, old analysis),net benefit, full model, threshold 0.3,3,0.566
+Complete-case DCA (n=396, old analysis),net benefit, clinical only, threshold 0.3,3,0.546
+Complete-case DCA (n=396, old analysis),net benefit, full model, threshold 0.5,3,0.53
+Complete-case DCA (n=396, old analysis),net benefit, clinical only, threshold 0.5,3,0.518
+Selection check,median risk score, all evaluable (n=691),,-0.661
+Selection check,median risk score, complete-case subset (n=396),,0.603
+Selection check,KS test P (score distribution, subset vs all),,0
+Calibration (TCGA, n=691),slope, 1-year,1,1.09
+Calibration (TCGA, n=691),slope, 3-year,3,1.8
+Calibration (TCGA, n=691),slope, 5-year,5,1.53
+Calibration (TCGA, n=691),intercept, 1-year,1,-0.07
+Calibration (TCGA, n=691),intercept, 3-year,3,-0.89
+Calibration (TCGA, n=691),intercept, 5-year,5,-0.81
+Collinearity (TCGA),VIF, riskScore,,5.85
+Collinearity (TCGA),VIF, age,,1.529
+Collinearity (TCGA),VIF, GradeG3,,1.598
+Collinearity (TCGA),VIF, GradeG4,,3.948
+Collinearity (TCGA),VIF, IDHWT,,4.261
+Collinearity (CGGA-325),VIF, riskScore,,1.691
+Collinearity (CGGA-325),VIF, Grade )WHO III,,1.536
+Collinearity (CGGA-325),VIF, Grade )WHO IV,,2.256
